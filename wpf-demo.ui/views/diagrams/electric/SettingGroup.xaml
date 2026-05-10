@@ -1,0 +1,134 @@
+﻿<UserControl x:Class="wpf.ui.views.diagrams.electric.SettingGroup"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:wpf.ui.views.diagrams.electric"
+             xmlns:converter="clr-namespace:wpf.ui.converters"
+             xmlns:model="clr-namespace:wpf.ui.model.diagrams.electric"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:ctrl="clr-namespace:wpf.ui.views.diagrams.common">
+    <UserControl.Resources>
+        <Style TargetType="TextBlock" x:Key="HeaderText">
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="FontWeight" Value="Thin" />
+            <Setter Property="Foreground" Value="#333" />
+        </Style>
+        <converter:BoolToColorConverter x:Key="BoolToColorConverter"/>
+        <converter:IndexPlusOneConverter x:Key="IndexPlusOneConverter"/>
+
+        <DataTemplate x:Key="CellTemplate" DataType="{x:Type model:SettingGroupItem}">
+            <Border Width="80" Height="80"
+                    BorderThickness="0.5"
+                    BorderBrush="Black">
+                <Border Width="60" Height="40"
+                    Background="{Binding IsActive, Converter={StaticResource BoolToColorConverter}}"
+                    BorderBrush="Black" BorderThickness="0.5"
+                    MouseLeftButtonUp="Cell_MouseLeftButtonUp">
+                </Border>
+            </Border>
+
+        </DataTemplate>
+
+        <DataTemplate x:Key="RowHeaderTemplate" DataType="{x:Type sys:String}">
+            <Border Width="80" Height="80"
+                    Background="Transparent"
+                    BorderBrush="Black" BorderThickness="1">
+                <TextBlock Text="{Binding}"
+                           Style="{StaticResource HeaderText}"/>
+            </Border>
+        </DataTemplate>
+
+        <DataTemplate x:Key="ColumnHeaderTemplate" DataType="{x:Type sys:String}">
+            <Border Width="80" Height="80"
+                    Background="Transparent"
+                    BorderBrush="Black" BorderThickness="1">
+                <TextBlock Text="{Binding}"
+                           Style="{StaticResource HeaderText}"/>
+            </Border>
+        </DataTemplate>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <ctrl:Caption Grid.Row="0"
+                      FontSize="28"
+                      StationName="{Binding RouteService.StationName}"
+                      CaptionText="保护定值组显示图">
+        </ctrl:Caption>
+        <Grid Grid.Row="1" 
+              HorizontalAlignment="Center">
+            <TextBlock Text="定值组切换"
+                   FontSize="28"
+                   Foreground="Blue"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Bottom">
+            </TextBlock>
+        </Grid>
+
+        <Grid Grid.Row="2" 
+            Margin="0,50,0,0"
+              HorizontalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Grid.Column="0"
+                    BorderBrush="Black"
+                    BorderThickness="1">
+                
+            </Border>
+
+            <ItemsControl Grid.Row="0" Grid.Column="1"
+                          ItemsSource="{Binding ColumnNames}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <ContentPresenter ContentTemplate="{StaticResource ColumnHeaderTemplate}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <ItemsControl Grid.Row="1" Grid.Column="0"
+                          ItemsSource="{Binding RowNames}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Vertical"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <ContentPresenter ContentTemplate="{StaticResource RowHeaderTemplate}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <ItemsControl Grid.Row="1" Grid.Column="1"
+                          ItemsSource="{Binding Items}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Rows="{Binding RowCount}" Columns="{Binding ColumnCount}"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <ContentPresenter ContentTemplate="{StaticResource CellTemplate}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </Grid>
+    </Grid>
+</UserControl>

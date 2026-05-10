@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+    <None Remove="design\svg\750V停电.svg" />
+    <None Remove="design\svg\750V送电.svg" />
+    <None Remove="design\svg\全线10kV接线图.svg" />
+    <None Remove="design\svg\全线接触网图.svg" />
+    <None Remove="design\svg\工况.svg" />
+    <None Remove="design\svg\车站一次系统图.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="design\全线接线图1.xaml" />
+    <Page Remove="design\全线接线图2.xaml" />
+    <Page Remove="design\全线接线图3.xaml" />
+    <Page Remove="design\全线接线图4.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="design\svg\750V停电.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="design\svg\750V送电.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="design\svg\全线10kV接线图.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="design\svg\全线接触网图.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="design\svg\工况.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="design\svg\车站一次系统图.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="design\全线接线图1.xaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="design\全线接线图2.xaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="design\全线接线图3.xaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="design\全线接线图4.xaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\iscs-ui-common\Ioc\Ioc.csproj" />
+    <ProjectReference Include="..\iscs-ui-common\Logging\Logging.csproj" />
+    <ProjectReference Include="..\iscs-ui-common\PowerComponent.Core\PowerComponent.Core.csproj" />
+    <ProjectReference Include="..\iscs-ui-common\UserComponent.Core\UserComponent.Core.csproj" />
+    <ProjectReference Include="..\iscs-ui-common\Utils\Utils.csproj" />
+    <ProjectReference Include="..\iscs-ui-common\WpfUtils\WpfUtils.csproj" />
+    <ProjectReference Include="..\Messaging\Messaging.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="views\diagrams\electric\primary\LiujiayaoPrimary.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\diagrams\electric\primary\TiantandongPrimary.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\dialogs\DevicePopup.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

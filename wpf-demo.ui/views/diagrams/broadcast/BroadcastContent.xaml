@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="wpf.ui.views.diagrams.broadcast.BroadcastContent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:wpf.ui.views.diagrams.electric"
+             xmlns:vm="clr-namespace:wpf.ui.viewmodels.diagrams.electric"
+             xmlns:ctrl="clr-namespace:wpf.ui.views.diagrams.common">
+    <UserControl.Resources>
+        
+    </UserControl.Resources>
+    <Grid HorizontalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="广播状态" Grid.Row="0" Grid.Column="0" FontSize="26" HorizontalAlignment="Center"></TextBlock>
+        <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center">
+            <DataGrid x:Name="BroadcastContentDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" CanUserSortColumns="False" IsEnabled="False" GridLinesVisibility="None">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="来源" Width="180" />
+                    <DataGridTextColumn Header="语音号" Width="120" />
+                    <DataGridTextColumn Header="语音描述" Width="600" />
+                    <DataGridTextColumn Header="间距" Width="180" />
+                    <DataGridTextColumn Header="结束时间（时：分）" Width="300" />
+                </DataGrid.Columns>
+                <DataGrid.ColumnHeaderStyle>
+                    <Style TargetType="DataGridColumnHeader">
+                        <Setter Property="Background" Value="Blue"/>
+                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                        <Setter Property="VerticalContentAlignment" Value="Center"/>
+                        <Setter Property="Height" Value="50"/>
+                        <Setter Property="FontSize" Value="20"/>
+                    </Style>
+                </DataGrid.ColumnHeaderStyle>
+                <DataGrid.RowStyle>
+                    <Style TargetType="DataGridRow">
+                        <Setter Property="Height" Value="40"/>
+                    </Style>
+                </DataGrid.RowStyle>
+            </DataGrid>
+        </Grid>
+        <Button Grid.Row="1" Grid.Column="1" Content="显示内容" FontSize="20" Foreground="Black" Width="100" Height="50" VerticalAlignment="Top" Margin="20,0,0,0"></Button>
+    </Grid>
+</UserControl>

@@ -1,0 +1,105 @@
+﻿<UserControl x:Class="wpf.ui.views.devices.DeviceDetail"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:wpf.ui.views.devices"
+             xmlns:btn="clr-namespace:UserComponent.Core.menu;assembly=UserComponent.Core"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors">
+    <UserControl.Resources>
+        <Style TargetType="TextBlock" BasedOn="{StaticResource FieldTitle}">
+            <Setter Property="Width" Value="30" />
+            <Setter Property="Margin" Value="20,0,20,0" />
+        </Style>
+    </UserControl.Resources>
+    <Grid Background="#dad9d8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="设备详情" Style="{StaticResource PageTitle}"/>
+        <Grid Grid.Row="1" Margin="20,0,20,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0"
+                Text="点：" Style="{StaticResource FieldTitle}"></TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="1"
+                       Text="{Binding DeviceName}" 
+                       Style="{StaticResource BlueFieldValue}"
+                       Width="400"></TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="0"
+                       Text="描述：" 
+                       Style="{StaticResource FieldTitle}"/>
+            <TextBlock Grid.Row="1" Grid.Column="1"
+                       Text="{Binding Description}" 
+                       Style="{StaticResource BlueFieldValue}"
+                       Width="400"></TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="0"
+                       Text="状态：" 
+                       Style="{StaticResource FieldTitle}" />
+            <TextBlock Grid.Row="2" Grid.Column="1"
+                       Text="{Binding Status}" 
+                       Style="{StaticResource BlueFieldValue}"
+                       Width="120"></TextBlock>
+        </Grid>
+        <Border Grid.Row="2" Style="{StaticResource InnerShadowBorderStyle}"
+                Width="600"
+                Height="200"  Margin="40,0,40,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" Grid.RowSpan="4"
+                    Style="{StaticResource FieldValue}" Text="控制方式"
+                           Padding="20,0,0,0"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Grid.RowSpan="4"
+                    Style="{StaticResource FieldValue}" Text="模式控制"
+                           Foreground="Yellow"/>
+                <TextBlock Grid.Row="0" Grid.Column="2"
+                    Style="{StaticResource FieldValue}" Text="远程/现场状态" />
+                <TextBlock Grid.Row="1" Grid.Column="2"
+                    Style="{StaticResource FieldValue}" Text="设备联锁" />
+                <TextBlock Grid.Row="2" Grid.Column="2"
+                    Style="{StaticResource FieldValue}" Text="控制屏蔽" />
+                <TextBlock Grid.Row="3" Grid.Column="2"
+                    Style="{StaticResource FieldValue}" Text="总报警" />
+                <TextBlock Grid.Row="0" Grid.Column="3"
+                    Style="{StaticResource FieldValue}" Text="现场"
+                           Foreground="Red"/>
+                <TextBlock Grid.Row="1" Grid.Column="3"
+                    Style="{StaticResource FieldValue}" Text="解锁" 
+                           Foreground="Green"/>
+                <TextBlock Grid.Row="2" Grid.Column="3"
+                    Style="{StaticResource FieldValue}" Text="非屏蔽"
+                           Foreground="Green"/>
+                <TextBlock Grid.Row="3" Grid.Column="3"
+                    Style="{StaticResource FieldValue}" Text="正常"
+                           Foreground="Green"/>
+            </Grid>
+        </Border>
+
+        <btn:MenuButton Grid.Row="3" Height="80"
+            NormalTemplate="{StaticResource ActionButtonStyle}"
+                            ContentText="确认"
+                            ContentFontSize="24"
+                            Margin="0"
+                            ClickCommand="{Binding DataContext.CloseCommand, RelativeSource={RelativeSource AncestorType=Window}}">
+        </btn:MenuButton>
+    </Grid>
+</UserControl>

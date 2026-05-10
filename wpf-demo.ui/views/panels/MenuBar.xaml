@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="wpf.ui.views.panels.MenuBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:wpf.ui.views.panels"
+             xmlns:viewmodel="clr-namespace:wpf.ui.viewmodels.panels"
+             xmlns:menu="clr-namespace:UserComponent.Core.menu;assembly=UserComponent.Core"
+             xmlns:converter="clr-namespace:WpfUtils.Converters;assembly=WpfUtils">
+    <UserControl.Resources>
+        <Style TargetType="ItemsControl">
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="ItemsPanel">
+                <Setter.Value>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"  />
+                    </ItemsPanelTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="menu:MenuButton">
+            <Setter Property="ContentFontSize" Value="{Binding ContentFontSize}" />
+        </Style>
+
+        <converter:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <viewmodel:MenuBarViewmodel />
+    </UserControl.DataContext>
+    <Grid VerticalAlignment="Top" Margin="0,1,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ItemsControl  Grid.Row="0"
+                       ItemsSource="{Binding PrimaryMenus}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <menu:MenuButton
+                        NormalTemplate="{StaticResource MenuButtonStyle}"
+                        PressedTemplate="{StaticResource MenuButtonSelectedStyle}"
+                        ClickCommand="{Binding ClickCommand}"
+                        ClickCommandParameter="{Binding ClickCommandParameter}">
+                        
+                    </menu:MenuButton>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <ItemsControl ItemsSource="{Binding SubMenus}" Grid.Row="1">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <menu:MenuButton
+                        NormalTemplate="{StaticResource MenuButtonStyle}"
+                        PressedTemplate="{StaticResource MenuButtonSelectedStyle}"
+                        ClickCommand="{Binding ClickCommand}"
+                        ClickCommandParameter="{Binding ClickCommandParameter}"
+                        Visibility="{Binding IsVisible, Converter={StaticResource BoolToVisibilityConverter}}">
+                    </menu:MenuButton>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </Grid>
+</UserControl>

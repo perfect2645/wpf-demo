@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:wpf.ui.viewmodels.diagrams.broadcast"
+                    xmlns:view="clr-namespace:wpf.ui.views.diagrams.broadcast">
+    <DataTemplate DataType="{x:Type vm:StationBroadcastVm}">
+        <view:StationBroadcast />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:BroadcastContentVm}">
+        <view:BroadcastContent />
+    </DataTemplate>
+</ResourceDictionary>

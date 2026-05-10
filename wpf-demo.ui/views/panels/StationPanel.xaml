@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="wpf.ui.views.panels.StationPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:wpf.ui.views.panels"
+             xmlns:station="clr-namespace:UserComponent.Core.station;assembly=UserComponent.Core"
+             xmlns:viewmodel="clr-namespace:wpf.ui.viewmodels.panels.station"
+             Padding="16, 9, 16, 0">
+    <UserControl.Resources>
+        <Style TargetType="ItemsControl">
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="ItemsPanel">
+                <Setter.Value>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal" />
+                    </ItemsPanelTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <viewmodel:StationPanelViewModel />
+    </UserControl.DataContext>
+    <Grid>
+        <ItemsControl ItemsSource="{Binding Stations}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <station:StationControl Style="{StaticResource StationControlStyle}"
+                        Title="{Binding Title}"
+                        ShowLine="{Binding ShowLine}"
+                        NormalTemplate="{StaticResource StationButtonStyle}"
+                        PressedTemplate="{StaticResource StationButtonSelectedStyle}"
+                        ClickCommand="{Binding ClickCommand}"
+                        ClickCommandParameter="{Binding ClickCommandParameter}"
+                        >
+                    </station:StationControl>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <!--<station:StationControl Style="{StaticResource StationControlStyle}"
+            Title="刘家窑"
+            NormalTemplate="{StaticResource StationButtonStyle}"
+            >
+
+        </station:StationControl>
+        <station:StationControl Style="{StaticResource StationControlStyle}"
+            Title="蒲黄榆"
+            NormalTemplate="{StaticResource StationButtonStyle}"
+            >
+        </station:StationControl>-->
+    </Grid>
+</UserControl>

@@ -1,0 +1,95 @@
+﻿<Popup x:Class="wpf.ui.views.diagrams.envControl.ModePopup"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:btn="clr-namespace:UserComponent.Core.menu;assembly=UserComponent.Core"
+             Height="260"
+             Width="568"
+             IsOpen="{Binding IsOpen}"
+             StaysOpen="False"
+       Loaded="Popup_Loaded">
+    <Popup.Resources>
+        <Style TargetType="btn:MenuButton">
+            <Setter Property="Margin" Value="-25,0,0,0"/>
+            <Setter Property="ContentFontSize" Value="17"/>
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <ScaleTransform ScaleX="0.8">
+                        
+                    </ScaleTransform>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Popup.Resources>
+    <Grid Background="#dad9d8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5"
+                    Orientation="Horizontal">
+            <TextBlock Text="点名：" Style="{StaticResource FieldTitle}"
+                       Margin="20,0,20,0"></TextBlock>
+            <TextBlock Text="{Binding DeviceName}" 
+                       Style="{StaticResource BlueFieldValue}"
+                       Width="200"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5"
+                    Orientation="Horizontal">
+            <TextBlock Text="描述：" 
+                       Style="{StaticResource FieldTitle}"
+                       Margin="20,0,20,0"></TextBlock>
+            <TextBlock Text="{Binding Description}" 
+                       Style="{StaticResource BlueFieldValue}"
+                       Width="700"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5"
+                    Orientation="Horizontal">
+            <TextBlock Text="状态：" 
+                       Style="{StaticResource FieldTitle}"
+                       Margin="20,0,20,0"></TextBlock>
+            <TextBlock Text="{Binding Status}" 
+                       Style="{StaticResource BlueFieldValue}"
+                       Width="120"></TextBlock>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.ColumnSpan="6">
+            <btn:MenuButton NormalTemplate="{StaticResource ActionButtonStyle}"
+                             ContentText="控制"
+                             Margin="0">
+            </btn:MenuButton>
+            <btn:MenuButton NormalTemplate="{StaticResource ActionButtonStyle}"
+                             ContentText="标记">
+            </btn:MenuButton>
+            <btn:MenuButton NormalTemplate="{StaticResource ActionButtonStyle}"
+                             ContentText="详情"
+                             ClickCommand="{Binding DetailCommand}">
+            </btn:MenuButton>
+            <btn:MenuButton NormalTemplate="{StaticResource ActionButtonStyle}"
+                             ContentText="指派         趋势">
+            </btn:MenuButton>
+            <btn:MenuButton NormalTemplate="{StaticResource ActionButtonStyle}"
+                             ContentText="报警         时间表">
+            </btn:MenuButton>
+            <btn:MenuButton NormalTemplate="{StaticResource ActionButtonStyle}"
+                             ContentText="取消">
+            </btn:MenuButton>
+        </StackPanel>
+        <Canvas>
+            <btn:MenuButton NormalTemplate="{StaticResource ActionButtonStyle}"
+                             Margin="0"
+                             Canvas.Left="460"
+                             Canvas.Top="90"
+                             ContentText="Alarm Schedule">
+            </btn:MenuButton>
+        </Canvas>
+    </Grid>
+</Popup>

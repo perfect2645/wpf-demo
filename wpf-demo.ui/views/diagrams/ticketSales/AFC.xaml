@@ -1,0 +1,1708 @@
+﻿<UserControl x:Class="wpf.ui.views.diagrams.ticketSales.AFC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:wpf.ui.views.diagrams.electric"
+             xmlns:vm="clr-namespace:wpf.ui.viewmodels.diagrams.electric"
+             xmlns:ctrl="clr-namespace:wpf.ui.views.diagrams.common">
+    <Viewbox Stretch="None" Width="1920" Height="750">
+            <Canvas Width="1920" Height="750">
+                <Canvas>
+                    <Canvas Canvas.Left="70.25" Canvas.Top="24.0499992370605">
+                        <Canvas>
+                            <Canvas Name="Layer2_0_FILL">
+                            <Path Fill="#dad9d8" StrokeThickness="1" Data="F1M1849.75,-23.95Q1849.75,-24.05,1849.65,-24.05L-70.15,-24.05Q-70.25,-24.05,-70.25,-23.95L-70.25,725.85Q-70.25,725.95,-70.15,725.95L1849.65,725.95Q1849.75,725.95,1849.75,725.85L1849.75,-23.95z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Top="-215">
+                        <Canvas>
+                            <Path Name="Layer1_0_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M1395.5,286L1385.5,297 1461.35,297 M1463,297L1653.5,297 1653.5,889 1555.35,889 M1554.4,889L1388.5,889 1400.5,903"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Top="-215">
+                        <Canvas>
+                            <Path Name="Layer1_1_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M496,286L506,297 345,297 345,889 510,889 498,903"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Top="-215">
+                        <Canvas>
+                            <Path Name="Layer1_2_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M761.25,297.5L1311.5,297.5 1305.5,286.5 M584.5,286.5L575.5,297.5 760.85,297.5"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="603" Canvas.Top="421.850006103516">
+                        <TextBlock Text="S8" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="10.85" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-12.85,-4.2L29.15,-4.2 29.15,18.25 -12.85,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="566" Canvas.Top="421.850006103516">
+                        <TextBlock Text="S7" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="10.85" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-12.85,-4.2L29.15,-4.2 29.15,18.25 -12.85,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="545" Canvas.Top="421.850006103516">
+                        <TextBlock Text="S6" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="10.85" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-12.85,-4.2L29.15,-4.2 29.15,18.25 -12.85,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="512" Canvas.Top="421.850006103516">
+                        <TextBlock Text="S5" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="10.85" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-12.85,-4.2L29.15,-4.2 29.15,18.25 -12.85,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="490" Canvas.Top="421.850006103516">
+                        <TextBlock Text="S4" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="10.85" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-12.85,-4.2L29.15,-4.2 29.15,18.25 -12.85,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="465" Canvas.Top="421.850006103516">
+                        <TextBlock Text="S3" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="10.85" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-12.85,-4.2L29.15,-4.2 29.15,18.25 -12.85,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="442" Canvas.Top="421.850006103516">
+                        <TextBlock Text="S2" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="10.85" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-12.85,-4.2L29.15,-4.2 29.15,18.25 -12.85,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="418" Canvas.Top="421.850006103516">
+                        <TextBlock Text="S1" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="10.85" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-12.85,-4.2L29.15,-4.2 29.15,18.25 -12.85,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="592" Canvas.Top="370.450012207031">
+                        <TextBlock Text="B1" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="10.5" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-12.5,-4.2L29.5,-4.2 29.5,18.25 -12.5,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="592" Canvas.Top="349.450012207031">
+                        <TextBlock Text="B2" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="10.5" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-12.5,-4.2L29.5,-4.2 29.5,18.25 -12.5,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 -64.5 79.9499969482422"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_13_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 134 -17.5499992370605"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_14_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 134 4.44999980926514"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_15_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="489.950012207031" Canvas.Top="39.4500007629395">
+                        <TextBlock Text="出入口通道" FontFamily="_____Regular" FontSize="18" Foreground="Black" Canvas.Left="3.05" Canvas.Top="2.85">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-5.05,-4.85L95.1,-4.85 95.1,22.9 -5.05,22.9z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1289.94995117188" Canvas.Top="39.1500015258789">
+                        <TextBlock Text="出入口通道" FontFamily="_____Regular" FontSize="18" Foreground="Black" Canvas.Left="3.05" Canvas.Top="2.85">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-5.05,-4.85L95.1,-4.85 95.1,22.9 -5.05,22.9z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="484.950012207031" Canvas.Top="699.150024414063">
+                        <TextBlock Text="出入口通道" FontFamily="_____Regular" FontSize="18" Foreground="Black" Canvas.Left="3.05" Canvas.Top="2.85">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-5.05,-4.85L95.1,-4.85 95.1,22.9 -5.05,22.9z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1307.94995117188" Canvas.Top="699.150024414063">
+                        <TextBlock Text="出入口通道" FontFamily="_____Regular" FontSize="18" Foreground="Black" Canvas.Left="3.05" Canvas.Top="2.85">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-5.05,-4.85L95.1,-4.85 95.1,22.9 -5.05,22.9z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Top="-215">
+                        <Canvas>
+                            <Path Name="Layer1_20_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M624,890L1320.5,890 1314.5,901 M578.5,901L569.5,890 622.15,890"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="481.950012207031" Canvas.Top="335.149993896484">
+                        <TextBlock Text="非付费区" FontFamily="_____Regular" FontSize="18" Foreground="Black" Canvas.Left="12.05" Canvas.Top="2.85">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-14.05,-4.85L86.1,-4.85 86.1,22.9 -14.05,22.9z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1381.94995117188" Canvas.Top="335.149993896484">
+                        <TextBlock Text="非付费区" FontFamily="_____Regular" FontSize="18" Foreground="Black" Canvas.Left="12.05" Canvas.Top="2.85">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-14.05,-4.85L86.1,-4.85 86.1,22.9 -14.05,22.9z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1261" Canvas.Top="348.950012207031">
+                        <TextBlock Text="B4" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="10.5" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-12.5,-4.2L29.5,-4.2 29.5,18.25 -12.5,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1261" Canvas.Top="370.950012207031">
+                        <TextBlock Text="B3" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="10.5" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-12.5,-4.2L29.5,-4.2 29.5,18.25 -12.5,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 807 -17.0499992370605"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_25_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 807 4.94999980926514"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_26_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="-125" Canvas.Top="-215">
+                        <Canvas>
+                            <Path Name="Layer1_27_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M780,298L780,347 834,347"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1.28570556640625 0 0 1 -347.850006103516 -206"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.77777099609375 0 0 1 270.549987792969 206"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_28_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M655.000341796875,173L708.999975585937,173"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1.28570556640625 0 0 1 -347.850006103516 -170"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.77777099609375 0 0 1 270.549987792969 170"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_29_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M655.000341796875,209L708.999975585937,209"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1.28570556640625 0 0 1 -347.850006103516 -139"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.77777099609375 0 0 1 270.549987792969 139"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_30_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M655.000341796875,240L708.999975585937,240"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1.28570556640625 0 0 1 -347.850006103516 -105"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.77777099609375 0 0 1 270.549987792969 105"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_31_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M655.000341796875,274L708.999975585937,274"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1.28570556640625 0 0 1 -347.850006103516 -73"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.77777099609375 0 0 1 270.549987792969 73"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_32_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M655.000341796875,306L708.999975585937,306"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="665.950012207031" Canvas.Top="249.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10345458984375 0 0 1 -865 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.906234741210938 0 0 1 783.900024414063 453.5"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_0_1_STROKES" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M-2.0985107421875,6.5L29.9016723632813,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_1_1_STROKES" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="665.950012207031" Canvas.Top="218.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10345458984375 0 0 1 -865 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.906234741210938 0 0 1 783.900024414063 453.5"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_0_1_STROKES_1" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M-2.0985107421875,6.5L29.9016723632813,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_1_1_STROKES_1" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="665.950012207031" Canvas.Top="186.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_1_Layer0_0_1_STROKES" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas Canvas.Left="-781.099975585938" Canvas.Top="-453.5">
+                            <Canvas>
+                                <Path Name="___4_1_Layer0_1_1_STROKES" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M782,460L811,460"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_1_Layer0_2_1_STROKES" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="665.950012207031" Canvas.Top="147.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_1_Layer0_0_1_STROKES_1" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas Canvas.Left="-781.099975585938" Canvas.Top="-453.5">
+                            <Canvas>
+                                <Path Name="___4_1_Layer0_1_1_STROKES_1" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M782,460L811,460"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_1_Layer0_2_1_STROKES_1" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="665.950012207031" Canvas.Top="282">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10345458984375 0 0 1 -865 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.906234741210938 0 0 1 783.900024414063 453.5"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_0_1_STROKES_2" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M-2.0985107421875,6.5L29.9016723632813,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_1_1_STROKES_2" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="665.950012207031" Canvas.Top="316">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10345458984375 0 0 1 -865 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.906234741210938 0 0 1 783.900024414063 453.5"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_0_1_STROKES_3" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M-2.0985107421875,6.5L29.9016723632813,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_1_1_STROKES_3" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="689.950012207031" Canvas.Top="413.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_0_1_STROKES" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10343933105469 0 0 1 -861.950012207031 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.90625 0 0 1 781.099975585938 453.450012207031"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_1_1_STROKES" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M0.93955688476558,6.5L32.9392974853515,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="707.400024414063" Canvas.Top="143.449996948242">
+                        <TextBlock Text="GSK1" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="3.8" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-5.8,-4.2L41.4,-4.2 41.4,18.25 -5.8,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="707.400024414063" Canvas.Top="181.850006103516">
+                        <TextBlock Text="G05" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="707.400024414063" Canvas.Top="215.25">
+                        <TextBlock Text="G04" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="707.400024414063" Canvas.Top="246.649993896484">
+                        <TextBlock Text="G03" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="707.400024414063" Canvas.Top="278.049987792969">
+                        <TextBlock Text="G02" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="881.950012207031" Canvas.Top="272.149993896484">
+                        <TextBlock Text="付费区" FontFamily="_____Regular" FontSize="18" Foreground="Black" Canvas.Left="21.05" Canvas.Top="2.85">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-23.05,-4.85L77.1,-4.85 77.1,22.9 -23.05,22.9z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 -40.5 79.9499969482422"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_46_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 -17.5 79.9499969482422"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_47_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 7.5 79.9499969482422"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_48_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 29.5 79.9499969482422"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_49_FILL">
+                                <Path Fill="Gray" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 64.5 79.9499969482422"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_50_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 83.5 79.9499969482422"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_51_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 120.5 79.9499969482422"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_52_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 -1 -125 686"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Path Name="Layer1_53_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M780,247L780,347 834,347"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="707.400024414063" Canvas.Top="312.450012207031">
+                        <TextBlock Text="G01" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1067 1308.15002441406"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.44995117188 1067"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_55_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M688,453.906225585938L688,407.908483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="686.400024414063" Canvas.Top="455.450012207031">
+                        <TextBlock Text="G11" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="725.950012207031" Canvas.Top="413.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_0_1_STROKES_1" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10343933105469 0 0 1 -861.950012207031 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.90625 0 0 1 781.099975585938 453.450012207031"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_1_1_STROKES_1" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M0.93955688476558,6.5L32.9392974853515,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1103.25 1308.15002441406"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.44995117188 1103.25"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_58_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M724.25,453.906225585938L724.25,407.908483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="761.950012207031" Canvas.Top="413.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_0_1_STROKES_2" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10343933105469 0 0 1 -861.950012207031 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.90625 0 0 1 781.099975585938 453.450012207031"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_1_1_STROKES_2" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M0.93955688476558,6.5L32.9392974853515,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1139.5 1308.15002441406"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.44995117188 1139.5"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_60_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M760.5,453.906225585938L760.5,407.908483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="797.950012207031" Canvas.Top="413.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_0_1_STROKES_3" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10343933105469 0 0 1 -861.950012207031 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.90625 0 0 1 781.099975585938 453.450012207031"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_1_1_STROKES_3" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M0.93955688476558,6.5L32.9392974853515,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1175.75 1308.15002441406"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.44995117188 1175.75"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_62_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M796.75,453.906225585938L796.75,407.908483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="834.950012207031" Canvas.Top="413.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_0_1_STROKES_4" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10343933105469 0 0 1 -861.950012207031 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.90625 0 0 1 781.099975585938 453.450012207031"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_1_1_STROKES_4" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M0.93955688476558,6.5L32.9392974853515,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1212 1308.15002441406"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.44995117188 1212"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_64_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M833,453.906225585938L833,407.908483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="870.950012207031" Canvas.Top="413.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_0_1_STROKES_5" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10343933105469 0 0 1 -861.950012207031 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.90625 0 0 1 781.099975585938 453.450012207031"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_1_1_STROKES_5" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M0.93955688476558,6.5L32.9392974853515,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1248.25 1308.15002441406"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.44995117188 1248.25"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_66_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M869.25,453.906225585938L869.25,407.908483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="907.950012207031" Canvas.Top="413.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_1_Layer0_0_1_STROKES_2" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas Canvas.Left="-781.099975585938" Canvas.Top="-453.5">
+                            <Canvas>
+                                <Path Name="___4_1_Layer0_1_1_STROKES_2" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M782,460L811,460"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_1_Layer0_2_1_STROKES_2" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1284.5 1308.15002441406"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.44995117188 1284.5"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_68_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M905.5,453.906225585938L905.5,407.908483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1321 1308.25"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.5 1321"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_69_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M942,454.006225585938L942,408.008483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="1157.40002441406" Canvas.Top="143.800003051758">
+                        <TextBlock Text="GSK2" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="3.8" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-5.8,-4.2L41.4,-4.2 41.4,18.25 -5.8,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1157.40002441406" Canvas.Top="182.199996948242">
+                        <TextBlock Text="G06" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1157.40002441406" Canvas.Top="215.600006103516">
+                        <TextBlock Text="G07" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1157.40002441406" Canvas.Top="247">
+                        <TextBlock Text="G08" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1157.40002441406" Canvas.Top="278.399993896484">
+                        <TextBlock Text="G09" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1157.40002441406" Canvas.Top="312.799987792969">
+                        <TextBlock Text="G010" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="4.1" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-6.1,-4.2L41.1,-4.2 41.1,18.25 -6.1,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="-1 0 0 1 2042 -214.5"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-1 0 0 1 2042 214.5"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_76_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M1262,83.5L1262,132.5 1208,132.5"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1.28570556640625 0 0 1 205.149993896484 -205.5"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.77777099609375 0 0 1 -159.550003051758 205.5"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_77_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M1208.00034179688,173.5L1261.99997558594,173.5"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1.28570556640625 0 0 1 205.149993896484 -169.5"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.77777099609375 0 0 1 -159.550003051758 169.5"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_78_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M1208.00034179688,209.5L1261.99997558594,209.5"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1.28570556640625 0 0 1 205.149993896484 -138.5"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.77777099609375 0 0 1 -159.550003051758 138.449996948242"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_79_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M1208.00034179688,240.5L1261.99997558594,240.5"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1.28570556640625 0 0 1 205.149993896484 -104.5"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.77777099609375 0 0 1 -159.550003051758 104.449996948242"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_80_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M1208.00034179688,274.5L1261.99997558594,274.5"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1.28570556640625 0 0 1 205.149993896484 -72.5"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.77777099609375 0 0 1 -159.550003051758 72.5"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_81_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M1208.00034179688,306.5L1261.99997558594,306.5"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="1218.94995117188" Canvas.Top="250">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_0_1_STROKES_6" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10343933105469 0 0 1 -861.950012207031 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.90625 0 0 1 781.099975585938 453.450012207031"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_1_1_STROKES_6" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M0.93955688476558,6.5L32.9392974853515,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="1218.94995117188" Canvas.Top="219">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_0_1_STROKES_7" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10343933105469 0 0 1 -861.950012207031 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.90625 0 0 1 781.099975585938 453.450012207031"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_1_1_STROKES_7" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M0.93955688476558,6.5L32.9392974853515,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="1218.94995117188" Canvas.Top="187">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_0_1_STROKES_8" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10343933105469 0 0 1 -861.950012207031 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.90625 0 0 1 781.099975585938 453.450012207031"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_1_1_STROKES_8" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M0.93955688476558,6.5L32.9392974853515,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="1218.94995117188" Canvas.Top="148">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_1_Layer0_0_1_STROKES_3" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas Canvas.Left="-781.099975585938" Canvas.Top="-453.5">
+                            <Canvas>
+                                <Path Name="___4_1_Layer0_1_1_STROKES_3" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M782,460L811,460"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_1_Layer0_2_1_STROKES_3" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="1218.94995117188" Canvas.Top="282.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_0_1_STROKES_9" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10343933105469 0 0 1 -861.950012207031 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.90625 0 0 1 781.099975585938 453.450012207031"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_0_Layer0_1_1_STROKES_9" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M0.93955688476558,6.5L32.9392974853515,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="1218.94995117188" Canvas.Top="316.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_1_Layer0_0_1_STROKES_4" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas Canvas.Left="-781.099975585938" Canvas.Top="-453.5">
+                            <Canvas>
+                                <Path Name="___4_1_Layer0_1_1_STROKES_4" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M782,460L811,460"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_1_Layer0_2_1_STROKES_4" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="-1 0 0 -1 2042 686.5"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-1 0 0 -1 2042 686.5"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_88_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M1262,439.5L1262,339.5 1208,339.5"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="722.400024414063" Canvas.Top="455.799987792969">
+                        <TextBlock Text="G12" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="760.400024414063" Canvas.Top="455.549987792969">
+                        <TextBlock Text="G13" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="797.400024414063" Canvas.Top="455.799987792969">
+                        <TextBlock Text="GS1" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.25" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.25,-4.2L36.95,-4.2 36.95,18.25 -10.25,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="832.400024414063" Canvas.Top="455.799987792969">
+                        <TextBlock Text="GS2" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.25" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.25,-4.2L36.95,-4.2 36.95,18.25 -10.25,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="870.400024414063" Canvas.Top="455.799987792969">
+                        <TextBlock Text="G14" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="903.400024414063" Canvas.Top="455.799987792969">
+                        <TextBlock Text="G15" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="991.549987792969" Canvas.Top="413.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.865386962890625 0 0 0.866668701171875 -676.799987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="1.15554809570313 0 0 1.15383911132813 782.049987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_1_Layer0_0_1_STROKES_5" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M6.76916198730476,12.9842834472656L0.0191436767578352,6.48426818847656 6.76916198730476,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas Canvas.Left="-781.099975585938" Canvas.Top="-453.5">
+                            <Canvas>
+                                <Path Name="___4_1_Layer0_1_1_STROKES_5" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M782,460L811,460"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_1_Layer0_2_1_STROKES_5" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1368.59997558594 1308.15002441406"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.44995117188 1368.59997558594"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_96_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M989.6,453.906225585938L989.6,407.908483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="988" Canvas.Top="454.450012207031">
+                        <TextBlock Text="G16" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1027.55004882813" Canvas.Top="413.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10345458984375 0 0 1 -865 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.906234741210938 0 0 1 783.900024414063 453.5"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_0_1_STROKES_4" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M-2.0985107421875,6.5L29.9016723632813,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_1_1_STROKES_4" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1404.84997558594 1308.15002441406"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.44995117188 1404.84997558594"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_99_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M1025.85,453.906225585938L1025.85,407.908483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="1063.55004882813" Canvas.Top="413.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10345458984375 0 0 1 -865 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.906234741210938 0 0 1 783.900024414063 453.5"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_0_1_STROKES_5" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M-2.0985107421875,6.5L29.9016723632813,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_1_1_STROKES_5" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1441.09997558594 1308.15002441406"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.44995117188 1441.09997558594"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_101_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M1062.1,453.906225585938L1062.1,407.908483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="1099.55004882813" Canvas.Top="413.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10345458984375 0 0 1 -865 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.906234741210938 0 0 1 783.900024414063 453.5"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_0_1_STROKES_6" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M-2.0985107421875,6.5L29.9016723632813,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_1_1_STROKES_6" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1477.34997558594 1308.15002441406"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.44995117188 1477.34997558594"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_103_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M1098.35,453.906225585938L1098.35,407.908483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="1136.55004882813" Canvas.Top="413.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10345458984375 0 0 1 -865 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.906234741210938 0 0 1 783.900024414063 453.5"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_0_1_STROKES_7" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M-2.0985107421875,6.5L29.9016723632813,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_1_1_STROKES_7" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1513.59997558594 1308.15002441406"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.44995117188 1513.59997558594"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_105_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M1134.6,453.906225585938L1134.6,407.908483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="1172.55004882813" Canvas.Top="413.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10345458984375 0 0 1 -865 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.906234741210938 0 0 1 783.900024414063 453.5"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_0_1_STROKES_8" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M-2.0985107421875,6.5L29.9016723632813,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_1_1_STROKES_8" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1549.84997558594 1308.15002441406"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.44995117188 1549.84997558594"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_107_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M1170.85,453.906225585938L1170.85,407.908483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="1209.55004882813" Canvas.Top="413.5">
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.10345458984375 0 0 1 -865 -453.5"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="0.906234741210938 0 0 1 783.900024414063 453.5"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_0_1_STROKES_9" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M-2.0985107421875,6.5L29.9016723632813,6.5"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="-0.865386962890625 0 0 0.866668701171875 709.049987792969 -391.75"/>
+                            </Canvas.RenderTransform>
+                            <Canvas>
+                                <Canvas.RenderTransform>
+                                    <MatrixTransform Matrix="-1.15554809570313 0 0 1.15383911132813 819.299987792969 452"/>
+                                </Canvas.RenderTransform>
+                                <Path Name="___4_2_Layer0_1_1_STROKES_9" Stroke="#FF01AC01" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M25.4808380126952,12.9842834472656L32.2308563232422,6.48426818847656 25.4808380126952,-0.0157470703125"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1586.09997558594 1308.15002441406"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.44995117188 1586.09997558594"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_109_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M1207.1,453.906225585938L1207.1,407.908483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0 -1.09518432617188 -1 0 1622.59997558594 1308.25"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0 -1 -0.9130859375 0 1194.5 1622.59997558594"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer1_110_1_STROKES" Stroke="#FF333333" StrokeThickness="2" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M1243.6,454.006225585938L1243.6,408.008483886719"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="1021" Canvas.Top="454.799987792969">
+                        <TextBlock Text="G17" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1059" Canvas.Top="454.549987792969">
+                        <TextBlock Text="G18" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1097" Canvas.Top="454.799987792969">
+                        <TextBlock Text="GS3" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.25" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.25,-4.2L36.95,-4.2 36.95,18.25 -10.25,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1131" Canvas.Top="454.799987792969">
+                        <TextBlock Text="GS4" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.25" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.25,-4.2L36.95,-4.2 36.95,18.25 -10.25,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1168" Canvas.Top="454.799987792969">
+                        <TextBlock Text="G19" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="8.2" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-10.2,-4.2L37,-4.2 37,18.25 -10.2,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1205" Canvas.Top="454.799987792969">
+                        <TextBlock Text="G110" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="4.1" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-6.1,-4.2L41.1,-4.2 41.1,18.25 -6.1,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1464" Canvas.Top="421.799987792969">
+                        <TextBlock Text="S9" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="10.85" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-12.85,-4.2L29.15,-4.2 29.15,18.25 -12.85,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1436" Canvas.Top="421.799987792969">
+                        <TextBlock Text="S10" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="6.75" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-8.75,-4.2L33.25,-4.2 33.25,18.25 -8.75,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1408" Canvas.Top="421.799987792969">
+                        <TextBlock Text="S11" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="6.75" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-8.75,-4.2L33.25,-4.2 33.25,18.25 -8.75,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1380" Canvas.Top="421.799987792969">
+                        <TextBlock Text="S12" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="6.75" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-8.75,-4.2L33.25,-4.2 33.25,18.25 -8.75,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1352" Canvas.Top="421.799987792969">
+                        <TextBlock Text="S13" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="6.75" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-8.75,-4.2L33.25,-4.2 33.25,18.25 -8.75,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1324" Canvas.Top="421.799987792969">
+                        <TextBlock Text="S14" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="6.75" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-8.75,-4.2L33.25,-4.2 33.25,18.25 -8.75,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1296" Canvas.Top="421.799987792969">
+                        <TextBlock Text="S15" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="6.75" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-8.75,-4.2L33.25,-4.2 33.25,18.25 -8.75,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Left="1268" Canvas.Top="421.799987792969">
+                        <TextBlock Text="S16" FontFamily="_____Regular" FontSize="14" Foreground="Black" Canvas.Left="6.75" Canvas.Top="2.2">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-8.75,-4.2L33.25,-4.2 33.25,18.25 -8.75,18.25z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 785.5 79.9000015258789"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_125_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 813.5 79.9000015258789"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_126_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 841.5 79.9000015258789"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_127_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 869.5 79.9000015258789"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_128_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 897.5 79.9000015258789"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_129_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 925.5 79.9000015258789"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_130_FILL">
+                                <Path Fill="Gray" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 953.5 79.9000015258789"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_131_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1 0 0 0.8665771484375 981.5 79.9000015258789"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer1_132_FILL">
+                                <Path Fill="#FF01AC01" StrokeThickness="1" Data="F1M494,427L494,442 509,442 509,427 494,427z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="68.4499969482422" Canvas.Top="-220">
+                        <Canvas>
+                            <Canvas Name="Layer0_0_MEMBER_0_FILL">
+                                <Path Fill="#FF2C2918" StrokeThickness="1" Data="F1M1556,919.05L1550,925 1456,958 1450,963.4 1556,963.4 1556,919.05z"/>
+                                <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M1550,925L1556,919.05 1450,919.05 1450,963.4 1456,958 1550,925z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0.953399658203125 0 0 0.919647216796875 1280.09997558594 655.849975585938"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="Layer0_0_MEMBER_1_FILL">
+                                <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M358.1,92.05L358.1,50.05 253.1,50.05 253.1,92.05 358.1,92.05z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="1534.94995117188" Canvas.Top="709.349975585938">
+                        <TextBlock Text="下一页" FontFamily="_____Regular" FontSize="18" Foreground="#FF333333" Canvas.Left="9.5" Canvas.Top="2.85">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-11.5,-4.85L65.55,-4.85 65.55,22.9 -11.5,22.9z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Top="-215">
+                        <Canvas>
+                            <Canvas Name="Layer0_2_FILL">
+                                <Path Fill="#FF2C2918" StrokeThickness="1" Data="F1M176.9,234.1L182.35,229.45 19.65,229.45 19.65,438.55 25,433.95 24.9,433.95 24.9,234.1 176.9,234.1z"/>
+                                <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M177,234.1L176.9,234.1 24.9,234.1 24.9,433.95 25,433.95 177,433.95 177,234.1z"/>
+                                <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M176.9,234.1L177,234.1 177,433.95 25,433.95 19.65,438.55 182.35,438.55 182.35,229.45 176.9,234.1z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="-6.05000019073486" Canvas.Top="28.3500003814697">
+                        <Canvas>
+                            <Canvas.Clip>
+                                <RectangleGeometry Rect="33.9,-2,144.75,27.75"/>
+                            </Canvas.Clip>
+                            <TextBlock Text="LC" FontFamily="_____Regular" FontSize="18" Foreground="#FF333333" Canvas.Left="39.7" Canvas.Top="2.85"/>
+                            <TextBlock Text="与" FontFamily="_____Regular" FontSize="18" Foreground="#FF333333" Canvas.Left="58.7" Canvas.Top="2.85"/>
+                            <TextBlock Text="SC" FontFamily="_____Regular" FontSize="18" Foreground="#FF333333" Canvas.Left="76.7" Canvas.Top="2.85"/>
+                            <TextBlock Text="通讯状态" FontFamily="_____Regular" FontSize="18" Foreground="#FF333333" Canvas.Left="97.4066666666667" Canvas.Top="2.85"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0.978729248046875 0 0 1 4.59999990463257 -211"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.021728515625 0 0 1 -4.65000009536743 211"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer0_4_1_STROKES" Stroke="#FF2C2918" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M32.0044189453125,26L170.005242919922,26 170.005242919922,114 32.0044189453125,114 32.0044189453125,26z"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="0.978729248046875 0 0 1 4.59999990463257 -114"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="1.021728515625 0 0 1 -4.65000009536743 114"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="Layer0_5_1_STROKES" Stroke="#FF2C2918" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M32.0044189453125,123L170.005242919922,123 170.005242919922,211 32.0044189453125,211 32.0044189453125,123z"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="-6.25" Canvas.Top="130.149993896484">
+                        <TextBlock Text="车站运营模式" FontFamily="_____Regular" FontSize="18" Foreground="#FF333333" Canvas.Left="52.25" Canvas.Top="2.85">
+                            <TextBlock.Clip>
+                                <StreamGeometry>M-18.35,-4.85L126.4,-4.85 126.4,22.9 -18.35,22.9z</StreamGeometry>
+                            </TextBlock.Clip>
+                        </TextBlock>
+                    </Canvas>
+                    <Canvas Canvas.Top="-215">
+                        <Canvas>
+                            <Canvas Name="Layer0_7_FILL">
+                                <Path Fill="Gray" StrokeThickness="1" Data="F1M152,388L49,388 49,414 152,414 152,388z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="-6.44999980926514" Canvas.Top="173.949996948242">
+                        <Canvas>
+                            <Canvas.Clip>
+                                <RectangleGeometry Rect="33.9,-2,144.75,27.75"/>
+                            </Canvas.Clip>
+                            <TextBlock Text="？" FontFamily="_____Regular" FontSize="18" Foreground="#FF333333" Canvas.Left="59.2" Canvas.Top="2.85"/>
+                            <TextBlock Text="Bad   lnd" FontFamily="_____Regular" FontSize="18" Foreground="#FF333333" Canvas.Left="77.2" Canvas.Top="2.85"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="0.200000002980232" Canvas.Top="-316.799987792969">
+                        <Canvas>
+                            <Canvas Name="Layer0_9_FILL">
+                                <Path Fill="White" StrokeThickness="1" Data="F1M152,388L49,388 49,414 152,414 152,388z"/>
+                            </Canvas>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="-6.25" Canvas.Top="72.1500015258789">
+                        <Canvas>
+                            <Canvas.Clip>
+                                <RectangleGeometry Rect="33.9,-2,144.75,27.75"/>
+                            </Canvas.Clip>
+                            <TextBlock Text="？" FontFamily="_____Regular" FontSize="18" Foreground="#FF333333" Canvas.Left="59.2" Canvas.Top="2.85"/>
+                            <TextBlock Text="Bad   lnd" FontFamily="_____Regular" FontSize="18" Foreground="#FF333333" Canvas.Left="77.2" Canvas.Top="2.85"/>
+                        </Canvas>
+                    </Canvas>
+                    <Canvas Canvas.Left="818.400024414063" Canvas.Top="10.1499996185303">
+                        <Canvas>
+                        <Canvas.Clip>
+                            <RectangleGeometry Rect="-2,-2,341.9,35.7"/>
+                        </Canvas.Clip>
+                        <ctrl:Caption Canvas.Left="14.55"
+                                        Canvas.Top="3.8"
+                                          FontFamily="_____Regular"
+                                            FontSize="24"
+                                            Foreground="#FF333333"
+                                            StationName="{Binding RouteService.StationName}">
+                        </ctrl:Caption>
+                        <TextBlock Text="--" FontFamily="_____Regular" FontSize="24" Foreground="#FF333333" Canvas.Left="134.55" Canvas.Top="3.8"/>
+                            <TextBlock Text="自动售检票系统" FontFamily="_____Regular" FontSize="24" Foreground="#FF333333" Canvas.Left="153.743333333333" Canvas.Top="3.8"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+        </Viewbox>
+    </UserControl>

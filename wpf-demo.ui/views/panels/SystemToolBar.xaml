@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="wpf.ui.views.panels.SystemToolBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:wpf.ui.views.panels"
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="____Regular" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="Foreground" Value="#FF333333" />
+            <Setter Property="Padding" Value="0 0 40 0"></Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Canvas Width="1920" Height="1080">
+            <Canvas Canvas.Left="848" Canvas.Top="-2">
+                <Canvas Name="___1____2_0_Layer0_0_FILL">
+                    <Path Fill="#FF2C2918" StrokeThickness="1" Data="F1M778.25,8.4L778.2,8.4 -841.7,44.2 -848,49 778.3,49 778.25,8.4 M851.05,49L851.05,2Q850.9,2,844.7,6.9L821.05,7.45 779,8.35 778.25,8.4 778.3,49 779,49 821.1,49 851.05,49z"/>
+                    <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M778.2,8.4L778.25,2 -848,2 -848,49 -841.7,44.2 778.2,8.4 M821.05,7.45L844.7,6.9Q850.9,2,851.05,2L821.05,2 779,2 778.25,2 778.2,8.4 778.25,8.4 779,8.35 821.05,7.45z"/>
+                </Canvas>
+                <Canvas Canvas.Left="-1.25">
+                    <Canvas Name="___1____2_0_Layer0_1_FILL">
+                        <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M847.95,45.75L847.95,5.25 -842.6,5.25 -842.6,45.75 847.95,45.75z"/>
+                    </Canvas>
+                </Canvas>
+                <StackPanel Orientation="Horizontal" Canvas.Left="-823" 
+                            HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Top="13">
+                    <TextBlock Text="系统" />
+                    <TextBlock Text="导航" />
+                    <TextBlock Text="总览" />
+                    <TextBlock Text="摘要" />
+                    <TextBlock Text="图表" />
+                    <TextBlock Text="帮助" />
+                </StackPanel>
+            </Canvas>
+        </Canvas>
+    </Grid>
+</UserControl>

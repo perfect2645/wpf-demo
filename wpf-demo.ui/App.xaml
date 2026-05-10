@@ -1,0 +1,24 @@
+﻿<Application x:Class="wpf.ui.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:wpf.ui"
+             xmlns:routeService="clr-namespace:UserComponent.Core.route;assembly=UserComponent.Core">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/controls/buttons/breakerbutton/BreakerButtonStyle.xaml"/>
+                <ResourceDictionary Source="/controls/buttons/menu/MenuButtonStyle.xaml"/>
+                <ResourceDictionary Source="/controls/buttons/station/StationControlStyle.xaml"/>
+                <ResourceDictionary Source="/views/diagrams/electric/ViewTemplate.xaml" />
+                <ResourceDictionary Source="/views/diagrams/envControl/ViewTemplate.xaml" />
+                <ResourceDictionary Source="/views/diagrams/broadcast/ViewTemplate.xaml" />
+                <ResourceDictionary Source="/views/diagrams/electromechanical/ViewTemplate.xaml" />
+                <ResourceDictionary Source="/views/diagrams/fireAlarm/ViewTemplate.xaml" />
+                <ResourceDictionary Source="/views/diagrams/safetyDoor/ViewTemplate.xaml" />
+                <ResourceDictionary Source="/views/diagrams/ticketSales/ViewTemplate.xaml" />
+                <ResourceDictionary Source="/views/devices/ViewTemplate.xaml" />
+                <ResourceDictionary Source="/styles/Generic.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

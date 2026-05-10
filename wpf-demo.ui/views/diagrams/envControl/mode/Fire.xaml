@@ -1,0 +1,263 @@
+﻿<UserControl x:Class="wpf.ui.views.diagrams.envControl.mode.Fire"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:wpf.ui.views.diagrams.electric"
+             xmlns:vm="clr-namespace:wpf.ui.viewmodels.diagrams.electric"
+             xmlns:ctrl="clr-namespace:wpf.ui.views.diagrams.common">
+    <UserControl.Resources>
+        
+    </UserControl.Resources>
+    <Grid HorizontalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="550" ></ColumnDefinition>
+            <ColumnDefinition Width="50" ></ColumnDefinition>
+            <ColumnDefinition Width="550" ></ColumnDefinition>
+            <ColumnDefinition Width="30" ></ColumnDefinition>
+            <ColumnDefinition Width="*" ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ctrl:Caption Grid.Row="0"
+                      FontSize="26"
+                      Grid.ColumnSpan="5"
+                      Foreground="{Binding CaptionForeground}"
+                      StationName="{Binding RouteService.StationName}"
+                      CaptionText="车站火灾模式">
+        </ctrl:Caption>
+        <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="500" ></ColumnDefinition>
+                    <ColumnDefinition Width="50" ></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="工况" FontSize="20" Foreground="White" Background="Blue" HorizontalContentAlignment="Center"></Label>
+                <Label Grid.Row="1" Grid.Column="0" Content="0450 直流开关柜室排废气" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="2" Grid.Column="0" Content="0451 整流开关柜室排废气" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="3" Grid.Column="0" Content="0452 高压开关柜室排废气" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="4" Grid.Column="0" Content="0453 控制室排废气" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="5" Grid.Column="0" Content="0454 低压开关柜室排废气" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="6" Grid.Column="0" Content="0455 再生制动室排废气" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="7" Grid.Column="0" Content="0456 公安通信房排废气" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="8" Grid.Column="0" Content="0401 公共防烟公区1" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="9" Grid.Column="0" Content="0402 公共防烟公区3" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="10" Grid.Column="0" Content="0403 公共防烟公区2" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="11" Grid.Column="0" Content="0404 公共防烟公区4" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="12" Grid.Column="0" Content="0405 公共防烟公区1、2" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="13" Grid.Column="0" Content="0406 公共防烟公区3、4" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="14" Grid.Column="0" Content="0411 设备管理用房防烟公区1" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="15" Grid.Column="0" Content="0412 设备管理用房防烟公区2" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="16" Grid.Column="0" Content="0413 直流开关柜室气体灭火" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="17" Grid.Column="0" Content="0414 整流开关柜室气体灭火" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="18" Grid.Column="0" Content="0415 高压开关柜室气体灭火" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="0" Grid.Column="1" Content="状态" FontSize="20" Foreground="White" Background="Blue" VerticalContentAlignment="Center"></Label>
+                <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="3" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="4" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="5" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="6" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="7" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="8" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="9" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="10" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="11" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="12" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="13" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="14" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="15" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="16" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="17" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="18" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+            </Grid>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="500" ></ColumnDefinition>
+                    <ColumnDefinition Width="50" ></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="工况" FontSize="20" Foreground="White" Background="Blue" HorizontalContentAlignment="Center" ></Label>
+                <Label Grid.Row="1" Grid.Column="0" Content="0416 控制室气体灭火" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="2" Grid.Column="0" Content="0417 低压开关柜室气体灭火" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="3" Grid.Column="0" Content="0418 再生制动装置室气体灭火" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="4" Grid.Column="0" Content="0419 设备管理用房防烟公区5" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="5" Grid.Column="0" Content="0420 A出入口" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="6" Grid.Column="0" Content="0421 A出入口" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="7" Grid.Column="0" Content="0422 B出入口" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="8" Grid.Column="0" Content="0423 设备管理用房防烟分区3" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="9" Grid.Column="0" Content="0424 综合监控机房气体灭火" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="10" Grid.Column="0" Content="0426 信号电池室气体灭火" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="11" Grid.Column="0" Content="0428 车站控制室排发气" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="12" Grid.Column="0" Content="0430 信号机械室气体灭火" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="13" Grid.Column="0" Content="0432 安全门设备室排发气" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="14" Grid.Column="0" Content="0434 移动通信机房气体灭火" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="15" Grid.Column="0" Content="0436 通信电池室排发气" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="16" Grid.Column="0" Content="0438 通信机械室气体灭火" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="17" Grid.Column="0" Content="0440 公安通信机房气体灭火" FontSize="20" Foreground="Black" Background="White" Width="480" Height="40"></Label>
+                <Label Grid.Row="0" Grid.Column="1" Content="状态" FontSize="20" Foreground="White" Background="Blue" VerticalContentAlignment="Center" ></Label>
+                <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="3" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="4" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="5" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="6" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="7" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="8" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="9" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="10" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="11" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="12" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="13" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="14" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="15" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="16" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="17" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                    <Label Background="White" Width="40" Height="40"></Label>
+                </Border>
+                <Border Grid.Row="18" Grid.Column="1" BorderBrush="Black" BorderThickness="1,0,0,0">
+                </Border>
+            </Grid>
+        </Border>
+        <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="火灾系统" FontSize="15" Foreground="Black" Width="200" Background="Orange"></Button>
+            <Button Content="大/水系统，隧道通风" FontSize="15" Foreground="Black" Margin="10,0,0,0" Width="200" Command="{Binding ClickCommand}" CommandParameter="模式-大/水"></Button>
+            <Button Content="空调小系统，人防通风" FontSize="15" Foreground="Black" Margin="10,0,0,0" Width="200" Command="{Binding ClickCommand}" CommandParameter="模式-小系统"></Button>
+            <Button Content="电力，照明，电梯系统" FontSize="15" Foreground="Black" Margin="10,0,0,0" Width="200" Command="{Binding ClickCommand}" CommandParameter="模式-电力"></Button>
+            <Button Content="区间阻塞模式" FontSize="15" Foreground="Black" Margin="10,0,0,0" Width="200" Command="{Binding ClickCommand}" CommandParameter="模式-区间"></Button>
+        </StackPanel>
+        <StackPanel Grid.Row="0" Grid.Column="4" Grid.RowSpan="4" VerticalAlignment="Bottom">
+            <Border BorderBrush="Black" BorderThickness="1" Height="150">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" ></ColumnDefinition>
+                        <ColumnDefinition Width="*" ></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="备注" FontSize="20" Foreground="Black" Margin="10,10,0,0"></TextBlock>
+                    <Label Grid.Row="1" Grid.Column="0" Background="Red" Height="30" Width="30" Margin="10,10,0,0"></Label>
+                    <Label Grid.Row="2" Grid.Column="0" Background="White" Height="30" Width="30" Margin="10,10,0,0"></Label>
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="火灾" FontSize="20" Foreground="Black" Margin="10,10,10,0"></TextBlock>
+                    <TextBlock Grid.Row="2" Grid.Column="1" Text="正常" FontSize="20" Foreground="Black" Margin="10,10,10,0"></TextBlock>
+                </Grid>
+            </Border>
+        </StackPanel>
+    </Grid>
+</UserControl>

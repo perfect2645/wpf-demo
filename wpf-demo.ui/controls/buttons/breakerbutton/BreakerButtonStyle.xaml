@@ -1,0 +1,554 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:wpf.ui.controls.buttons">
+
+    <SolidColorBrush x:Key="IsolationBrush" Color="#004ea2"/>
+    <SolidColorBrush x:Key="MagentaBrush" Color="#ff33e9"/>
+    <SolidColorBrush x:Key="PurpleBrush" Color="#8b1dd1"/>
+    <SolidColorBrush x:Key="OrangeBrush" Color="#fbae3b"/>
+    <SolidColorBrush x:Key="RedBrush" Color="#dc0908"/>
+    <SolidColorBrush x:Key="YellowBrush" Color="#EAE220"/>
+    <SolidColorBrush x:Key="GreenBrush" Color="#00CC00"/>
+    <SolidColorBrush x:Key="BlueBrush" Color="#004ea1"/>
+    
+    
+    <local:BreakerStyleConverter x:Key="BreakerStyleConverter" />
+    
+    <Style TargetType="local:BreakerButton">
+        <Setter Property="Padding" Value="12,6"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontWeight" Value="Normal"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="BorderThickness" Value="2"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:BreakerButton">
+                    <Grid Background="Transparent">
+                        <Border x:Name="PART_Border"
+                                Background="{Binding Background, RelativeSource={RelativeSource AncestorType=Button}}"
+                                BorderBrush="{Binding BorderBrush, RelativeSource={RelativeSource AncestorType=Button}}">
+                            <Border.CornerRadius>
+                                <MultiBinding Converter="{StaticResource BreakerStyleConverter}">
+                                    <Binding Path="Width" RelativeSource="{RelativeSource TemplatedParent}" />
+                                    <Binding Path="BreakerType" RelativeSource="{RelativeSource TemplatedParent}" />
+                                </MultiBinding>
+                            </Border.CornerRadius>
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <!-- 2. 电隔系列样式 -->
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding BreakerType, RelativeSource={RelativeSource Self}}" Value="Isolation"/>
+                                <Condition Binding="{Binding BreakerState, RelativeSource={RelativeSource Self}}" Value="Open"/>
+                            </MultiDataTrigger.Conditions>
+                            <Setter TargetName="PART_Border" Property="Height" Value="{Binding Width, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+                        </MultiDataTrigger>
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding BreakerType, RelativeSource={RelativeSource Self}}" Value="Isolation"/>
+                                <Condition Binding="{Binding BreakerState, RelativeSource={RelativeSource Self}}" Value="Close"/>
+                            </MultiDataTrigger.Conditions>
+                            <Setter TargetName="PART_Border" Property="BorderThickness" Value="3"/>
+                            <Setter TargetName="PART_Border" Property="Height" Value="{Binding Width, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+                        </MultiDataTrigger>
+                        
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding BreakerType, RelativeSource={RelativeSource Self}}" Value="Isolation"/>
+                                <Condition Binding="{Binding BreakerState, RelativeSource={RelativeSource Self}}" Value="AllZero"/>
+                            </MultiDataTrigger.Conditions>
+                            <Setter TargetName="PART_Border" Property="BorderThickness" Value="3"/>
+                            <Setter TargetName="PART_Border" Property="Height" Value="{Binding Width, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+                        </MultiDataTrigger>
+
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding BreakerType, RelativeSource={RelativeSource Self}}" Value="Isolation"/>
+                                <Condition Binding="{Binding BreakerState, RelativeSource={RelativeSource Self}}" Value="AllOne"/>
+                            </MultiDataTrigger.Conditions>
+                            <Setter TargetName="PART_Border" Property="BorderThickness" Value="3"/>
+                            <Setter TargetName="PART_Border" Property="Height" Value="{Binding Width, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+                        </MultiDataTrigger>
+
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding BreakerType, RelativeSource={RelativeSource Self}}" Value="Isolation"/>
+                                <Condition Binding="{Binding BreakerState, RelativeSource={RelativeSource Self}}" Value="Fault"/>
+                            </MultiDataTrigger.Conditions>
+                            <Setter TargetName="PART_Border" Property="Height" Value="{Binding Width, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+                        </MultiDataTrigger>
+
+                        <!-- 3. 开关系列样式 -->
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding BreakerType, RelativeSource={RelativeSource Self}}" Value="Breaker"/>
+                                <Condition Binding="{Binding BreakerState, RelativeSource={RelativeSource Self}}" Value="Open"/>
+                            </MultiDataTrigger.Conditions>
+                        </MultiDataTrigger>
+
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding BreakerType, RelativeSource={RelativeSource Self}}" Value="Breaker"/>
+                                <Condition Binding="{Binding BreakerState, RelativeSource={RelativeSource Self}}" Value="Close"/>
+                            </MultiDataTrigger.Conditions>
+                            <Setter TargetName="PART_Border" Property="BorderThickness" Value="3"/>
+                        </MultiDataTrigger>
+
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding BreakerType, RelativeSource={RelativeSource Self}}" Value="Breaker"/>
+                                <Condition Binding="{Binding BreakerState, RelativeSource={RelativeSource Self}}" Value="AllZero"/>
+                            </MultiDataTrigger.Conditions>
+                            <Setter TargetName="PART_Border" Property="BorderThickness" Value="3"/>
+                        </MultiDataTrigger>
+
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding BreakerType, RelativeSource={RelativeSource Self}}" Value="Breaker"/>
+                                <Condition Binding="{Binding BreakerState, RelativeSource={RelativeSource Self}}" Value="AllOne"/>
+                            </MultiDataTrigger.Conditions>
+                            <Setter TargetName="PART_Border" Property="BorderThickness" Value="3"/>
+                        </MultiDataTrigger>
+
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding BreakerType, RelativeSource={RelativeSource Self}}" Value="Breaker"/>
+                                <Condition Binding="{Binding BreakerState, RelativeSource={RelativeSource Self}}" Value="Fault"/>
+                            </MultiDataTrigger.Conditions>
+                        </MultiDataTrigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Opacity" Value="0.9"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Opacity" Value="0.8"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value="1"/>
+                            <Setter Property="Cursor" Value="Arrow"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="local:DiagramBreaker" 
+           BasedOn="{StaticResource {x:Type local:BreakerButton}}"
+           x:Key="DiagramBreakerBase">
+        <Setter Property="BorderThickness" Value="3" />
+        <Setter Property="BreakerState" Value="{Binding BreakerState}" />
+        <Setter Property="BreakerType" Value="Breaker" />
+        <Setter Property="Command" Value="{Binding ClickCommand}" />
+        <Setter Property="CommandParameter" Value="{Binding Id}" />
+    </Style>
+
+    <Style TargetType="local:DiagramBreaker" 
+           BasedOn="{StaticResource DiagramBreakerBase}"
+           x:Key="DiagramBreaker">
+        <Setter Property="Width" Value="18"/>
+        <Setter Property="Height" Value="28"/>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource RedBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource RedBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:DiagramBreaker" 
+           BasedOn="{StaticResource DiagramBreakerBase}"
+           x:Key="DiagramBreakerGreen">
+        <Setter Property="Width" Value="18"/>
+        <Setter Property="Height" Value="26"/>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource GreenBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource GreenBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:DiagramBreaker" 
+           BasedOn="{StaticResource DiagramBreakerBase}"
+           x:Key="DiagramBreakerYellow">
+        <Setter Property="Width" Value="18"/>
+        <Setter Property="Height" Value="28"/>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource YellowBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource YellowBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:DiagramBreaker" 
+           BasedOn="{StaticResource DiagramBreakerBase}"
+           x:Key="IsolatingBreakerYellow">
+        <Setter Property="Width" Value="18"/>
+        <Setter Property="Height" Value="18"/>
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <RotateTransform Angle="45"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource YellowBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource YellowBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:DiagramBreaker" 
+           BasedOn="{StaticResource DiagramBreakerBase}"
+           x:Key="IsolatingBreakerRed">
+        <Setter Property="Width" Value="17"/>
+        <Setter Property="Height" Value="17"/>
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <RotateTransform Angle="45"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource RedBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource RedBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:DiagramBreaker" 
+           BasedOn="{StaticResource DiagramBreakerBase}"
+           x:Key="IsolatingBreakerGreen">
+        <Setter Property="Width" Value="18"/>
+        <Setter Property="Height" Value="18"/>
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <RotateTransform Angle="45"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource GreenBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource GreenBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:DiagramBreaker" 
+           BasedOn="{StaticResource DiagramBreakerBase}"
+           x:Key="IsolatingBreakerBlue">
+        <Setter Property="Width" Value="18"/>
+        <Setter Property="Height" Value="18"/>
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <RotateTransform Angle="45"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource BlueBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource BlueBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:DiagramBreaker" 
+           BasedOn="{StaticResource DiagramBreakerBase}"
+           x:Key="IsolationYellow">
+        <Setter Property="Width" Value="24"/>
+        <Setter Property="Height" Value="24"/>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource YellowBrush}" />
+                <Setter Property="Background" Value="Black"/>
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource YellowBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:DiagramBreaker" 
+           BasedOn="{StaticResource DiagramBreakerBase}"
+           x:Key="IsolationBlue">
+        <Setter Property="Width" Value="24"/>
+        <Setter Property="Height" Value="24"/>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource BlueBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource BlueBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    
+    <!--Event breaker-->
+    <Style TargetType="local:EventBreaker" 
+       BasedOn="{StaticResource {x:Type local:BreakerButton}}"
+       x:Key="EventBreakerBase">
+        <Setter Property="BorderThickness" Value="3" />
+        <Setter Property="BreakerState" Value="{Binding BreakerState}" />
+        <Setter Property="BreakerType" Value="Breaker" />
+        <Setter Property="Command" Value="{Binding ClickCommand}" />
+        <Setter Property="CommandParameter" Value="{Binding Id}" />
+    </Style>
+
+    <Style TargetType="local:EventBreaker" 
+       BasedOn="{StaticResource EventBreakerBase}"
+       x:Key="EventBreaker">
+        <Setter Property="Width" Value="18"/>
+        <Setter Property="Height" Value="28"/>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource RedBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource RedBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:EventBreaker" 
+       BasedOn="{StaticResource EventBreakerBase}"
+       x:Key="EventBreakerGreen">
+        <Setter Property="Width" Value="18"/>
+        <Setter Property="Height" Value="26"/>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource GreenBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource GreenBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:EventBreaker" 
+       BasedOn="{StaticResource EventBreakerBase}"
+       x:Key="EventBreakerYellow">
+        <Setter Property="Width" Value="18"/>
+        <Setter Property="Height" Value="28"/>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource YellowBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource YellowBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:EventBreaker" 
+       BasedOn="{StaticResource EventBreakerBase}"
+       x:Key="IsolatingEventBreakerYellow">
+        <Setter Property="Width" Value="18"/>
+        <Setter Property="Height" Value="18"/>
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <RotateTransform Angle="45"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource YellowBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource YellowBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:EventBreaker" 
+       BasedOn="{StaticResource EventBreakerBase}"
+       x:Key="IsolatingEventBreakerRed">
+        <Setter Property="Width" Value="17"/>
+        <Setter Property="Height" Value="17"/>
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <RotateTransform Angle="45"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource RedBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource RedBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:EventBreaker" 
+       BasedOn="{StaticResource EventBreakerBase}"
+       x:Key="IsolatingEventBreakerGreen">
+        <Setter Property="Width" Value="18"/>
+        <Setter Property="Height" Value="18"/>
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <RotateTransform Angle="45"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource GreenBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource GreenBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:EventBreaker" 
+       BasedOn="{StaticResource EventBreakerBase}"
+       x:Key="IsolatingEventBreakerBlue">
+        <Setter Property="Width" Value="18"/>
+        <Setter Property="Height" Value="18"/>
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <RotateTransform Angle="45"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource BlueBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource BlueBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:EventBreaker" 
+       BasedOn="{StaticResource EventBreakerBase}"
+       x:Key="EventBreakerIsolationYellow">
+        <Setter Property="Width" Value="24"/>
+        <Setter Property="Height" Value="24"/>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource YellowBrush}" />
+                <Setter Property="Background" Value="Black"/>
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource YellowBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:EventBreaker" 
+       BasedOn="{StaticResource EventBreakerBase}"
+       x:Key="EventBreakerIsolationBlue">
+        <Setter Property="Width" Value="24"/>
+        <Setter Property="Height" Value="24"/>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource BlueBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource BlueBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+<!--750送电样式-->
+    <Style TargetType="local:EventBreaker" 
+        BasedOn="{StaticResource EventBreakerBase}"
+        x:Key="Breaker750Base">
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="IsEnabled" Value="False"/>
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Fault">
+                <Setter Property="Background" Value="{StaticResource MagentaBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="local:EventBreaker" 
+            BasedOn="{StaticResource Breaker750Base}"
+            x:Key="Isolation750Yellow">
+        <Setter Property="BreakerType" Value="Isolation" />
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource OrangeBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource OrangeBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="AllOne">
+                <Setter Property="BorderBrush" Value="{StaticResource OrangeBrush}" />
+                <Setter Property="Background" Value="{StaticResource PurpleBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="AllZero">
+                <Setter Property="BorderBrush" Value="{StaticResource OrangeBrush}" />
+                <Setter Property="Background" Value="{StaticResource MagentaBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:EventBreaker" 
+            BasedOn="{StaticResource Breaker750Base}"
+            x:Key="Breaker750Yellow">
+        <Setter Property="BreakerType" Value="Breaker" />
+        <Setter Property="Width" Value="51" />
+        <Setter Property="Height" Value="26" />
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource OrangeBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource OrangeBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="AllOne">
+                <Setter Property="BorderBrush" Value="{StaticResource OrangeBrush}" />
+                <Setter Property="Background" Value="{StaticResource PurpleBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="AllZero">
+                <Setter Property="BorderBrush" Value="{StaticResource OrangeBrush}" />
+                <Setter Property="Background" Value="{StaticResource MagentaBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="local:EventBreaker" 
+            BasedOn="{StaticResource Breaker750Base}"
+            x:Key="Isolation750Blue">
+        <Setter Property="BreakerType" Value="Isolation" />
+        <Style.Triggers>
+            <Trigger Property="BreakerState" Value="Close">
+                <Setter Property="BorderBrush" Value="{StaticResource BlueBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="Open">
+                <Setter Property="Background" Value="{StaticResource BlueBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="AllOne">
+                <Setter Property="BorderBrush" Value="{StaticResource BlueBrush}" />
+                <Setter Property="Background" Value="{StaticResource PurpleBrush}" />
+            </Trigger>
+            <Trigger Property="BreakerState" Value="AllZero">
+                <Setter Property="BorderBrush" Value="{StaticResource BlueBrush}" />
+                <Setter Property="Background" Value="{StaticResource MagentaBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+
+</ResourceDictionary>

@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="wpf.ui.views.diagrams.envControl.SmallSystem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:wpf.ui.views.diagrams.envControl">
+    <Grid>
+        <local:SmallSystemNorthern x:Name="Northern">
+            <local:SmallSystemNorthern.Style>
+                <Style TargetType="local:SmallSystemNorthern">
+                    <Setter Property="Visibility" Value="Collapsed" />
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsShowSouthern}" Value="False">
+                            <Setter Property="Visibility" Value="Visible" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </local:SmallSystemNorthern.Style>
+        </local:SmallSystemNorthern>
+
+        <local:SmallSystemSouthern x:Name="Southern">
+            <local:SmallSystemSouthern.Style>
+                <Style TargetType="local:SmallSystemSouthern">
+                    <Setter Property="Visibility" Value="Collapsed" />
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsShowSouthern}" Value="True">
+                            <Setter Property="Visibility" Value="Visible" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </local:SmallSystemSouthern.Style>
+        </local:SmallSystemSouthern>
+    </Grid>
+</UserControl>

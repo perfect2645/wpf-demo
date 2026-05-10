@@ -1,0 +1,62 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:wpf.ui.viewmodels.diagrams.envControl"
+                    xmlns:view="clr-namespace:wpf.ui.views.diagrams.envControl" 
+                    xmlns:viewschedule="clr-namespace:wpf.ui.views.diagrams.envControl.schedule" 
+                    xmlns:viewsensor="clr-namespace:wpf.ui.views.diagrams.envControl.sensor" 
+                    xmlns:viewauthorization="clr-namespace:wpf.ui.views.diagrams.envControl.authorization" 
+                    xmlns:viewmode="clr-namespace:wpf.ui.views.diagrams.envControl.mode" 
+                    xmlns:vmschedule="clr-namespace:wpf.ui.viewmodels.diagrams.envControl.schedule"
+                    xmlns:vmsensor="clr-namespace:wpf.ui.viewmodels.diagrams.envControl.sensor"
+                    xmlns:vmauthorization="clr-namespace:wpf.ui.viewmodels.diagrams.envControl.authorization"
+                    xmlns:vmmode="clr-namespace:wpf.ui.viewmodels.diagrams.envControl.mode">
+    <DataTemplate DataType="{x:Type vm:WaterSystemVm}">
+        <view:WaterSystem />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:BigSystemVm}">
+        <view:BigSystem />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:SmallSystemVm}">
+        <view:SmallSystem />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:TunnelVentilationVm}">
+        <view:TunnelVentilation />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vmschedule:ScheduleVm}">
+        <viewschedule:Schedule />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vmschedule:TimeTableVm}">
+        <viewschedule:TimeTable />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vmsensor:SensorVm}">
+        <viewsensor:Sensor />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vmauthorization:AuthorizationVm}">
+        <viewauthorization:Authorization/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vmmode:FireVm}">
+        <viewmode:Fire/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vmmode:BigVm}">
+        <viewmode:Big/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vmmode:SmallVm}">
+        <viewmode:Small/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vmmode:ElectricVm}">
+        <viewmode:Electric/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vmmode:IntervalVm}">
+        <viewmode:Interval/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vmmode:StationBlockVm}">
+        <viewmode:StationBlock/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vmmode:SouthLightingVm}">
+        <viewmode:SouthLighting/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vmmode:NorthLightingVm}">
+        <viewmode:NorthLighting/>
+    </DataTemplate>
+</ResourceDictionary>

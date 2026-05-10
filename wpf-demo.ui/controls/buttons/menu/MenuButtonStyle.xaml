@@ -1,0 +1,88 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:menu="clr-namespace:UserComponent.Core.menu;assembly=UserComponent.Core">
+    <Style TargetType="Grid" x:Key="MenuButtonGrid">
+        <Setter Property="Width" Value="116" />
+        <Setter Property="Height" Value="52" />
+        <Setter Property="Margin" Value="0,0,4,0" />
+    </Style>
+    <ControlTemplate x:Key="MenuButtonStyle" TargetType="Button">
+        <Grid Style="{StaticResource MenuButtonGrid}">
+            <Canvas>
+                <Path Fill="#FF2C2918" StrokeThickness="1" Data="F1M115.8,0L109.45,5.3 6.3,45.8 0,51 115.8,51 115.8,0z"/>
+                <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M109.45,5.3L115.8,0 0,0 0,51 6.3,45.8 109.45,5.3z"/>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="0.9808349609375 0 0 0.964279174804688 -241.850006103516 -43"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas Name="___1_0_Layer0_0_MEMBER_1_FILL">
+                        <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M358.1,92.05L358.1,50.05 253.1,50.05 253.1,92.05 358.1,92.05z"/>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <TextBlock x:Name="PART_TextBlock"
+                Text="{Binding Content}"
+                       Padding="10"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       TextAlignment="Center"
+                       TextWrapping="Wrap" >
+            </TextBlock>
+        </Grid>
+    </ControlTemplate>
+
+    <ControlTemplate x:Key="MenuButtonSelectedStyle" TargetType="Button">
+        <Grid Style="{StaticResource MenuButtonGrid}">
+            <Canvas Name="___1____0_Layer0_0_FILL">
+                <Path Fill="#FF3F370B" StrokeThickness="1" Data="F1M109.5,5.2L115.8,0 0,0 0,51 6.35,45.7 109.5,5.2z"/>
+                <Path Fill="#FFE8E2BD" StrokeThickness="1" Data="F1M115.8,0L109.5,5.2 6.35,45.7 0,51 115.8,51 115.8,0z"/>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="0.9808349609375 0 0 0.964279174804688 -241.850006103516 -43"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas Name="___1____0_Layer0_1_FILL">
+                        <Path Fill="#FFFBAE3B" StrokeThickness="1" Data="F1M358.1,92.05L358.1,50.05 253.1,50.05 253.1,92.05 358.1,92.05z"/>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <TextBlock x:Name="PART_TextBlock"
+                       Text="{Binding Content}"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       TextAlignment="Center"
+                       TextWrapping="Wrap" >
+            </TextBlock>
+        </Grid>
+    </ControlTemplate>
+
+    <ControlTemplate x:Key="ActionButtonStyle" TargetType="Button">
+        <Grid Style="{StaticResource MenuButtonGrid}">
+            <Canvas>
+                <Path Fill="#FF2C2918" StrokeThickness="1" Data="F1M115.8,0L109.45,5.3 6.3,45.8 0,51 115.8,51 115.8,0z"/>
+                <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M109.45,5.3L115.8,0 0,0 0,51 6.3,45.8 109.45,5.3z"/>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="0.9808349609375 0 0 0.964279174804688 -241.850006103516 -43"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas Name="___1_0_Layer0_0_MEMBER_1_FILL">
+                        <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M358.1,92.05L358.1,50.05 253.1,50.05 253.1,92.05 358.1,92.05z"/>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <TextBlock x:Name="PART_TextBlock"
+                Text="{Binding ContentText, ElementName=MenuBtn}"
+                       Padding="10"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       TextAlignment="Center"
+                       TextWrapping="Wrap" >
+            </TextBlock>
+        </Grid>
+    </ControlTemplate>
+</ResourceDictionary>

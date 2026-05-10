@@ -1,0 +1,127 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:wpf.ui.viewmodels.diagrams.electric"
+                    xmlns:view="clr-namespace:wpf.ui.views.diagrams.electric"
+                    xmlns:primaryVm="clr-namespace:wpf.ui.viewmodels.diagrams.electric.primary"
+                    xmlns:primaryView="clr-namespace:wpf.ui.views.diagrams.electric.primary">
+    <DataTemplate DataType="{x:Type vm:RemoteMeasurementVm}">
+        <view:RemoteMeasurementView />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:FullLineVm}">
+        <view:FullLine />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:FullLine10kvVm}">
+        <view:FullLine10kv />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:FullLineWiringVm}">
+        <view:FullLineWiring />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:FullLineWiringPopupVm}">
+        <view:FullLineWiring />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:Power750OnVm}">
+        <view:Power750On />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:Power750OffVm}">
+        <view:Power750Off />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:Power750PopupVm}">
+        <view:Power750Popup />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:StationPrimarySystemVm}">
+        <view:StationPrimarySystem />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:SoftPlateVm}">
+        <view:SoftPlate />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:SettingGroupVm}">
+        <view:SettingGroup />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:RailPotentialResetVm}">
+        <view:RailPotentialReset />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:LockoutVm}">
+        <view:Lockout />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:PowerOnOffVm}">
+        <view:PowerOnOff />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:OperatingConditionVm}">
+        <view:OperatingCondition />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:SongjiazhuangPrimaryVm}">
+        <primaryView:SongjiazhuangPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:TiantandongVm}">
+        <primaryView:TiantandongPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:LiujiayaoVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:PuhuangyuVm}">
+        <primaryView:PuhuangyuPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:CiqikouVm}">
+        <primaryView:CiqikouPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:ChongwenmenVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:DongdanVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:DengshikouVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:DongsiVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:ZhangzizhongVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:BeixinqiaoVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:YonghegongVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:HepingbeiVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:HepingxiVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:HuixinnanVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:HuixinbeiVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:DatundongVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:BeiyuanbeiVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:LishuinanVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:LishuiqiaoVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:TiantongnanVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:TiantongyuanVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:TiantongbeiVm}">
+        <primaryView:LiujiayaoPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:CheliangduanVm}">
+        <primaryView:CheliangduanPrimary />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type primaryVm:TingchechangVm}">
+        <primaryView:TingchechangPrimary />
+    </DataTemplate>
+</ResourceDictionary>

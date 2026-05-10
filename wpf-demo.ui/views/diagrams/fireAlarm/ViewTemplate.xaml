@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:wpf.ui.viewmodels.diagrams.fireAlarm"
+                    xmlns:view="clr-namespace:wpf.ui.views.diagrams.fireAlarm">
+    <DataTemplate DataType="{x:Type vm:HallVm}">
+        <view:Hall />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:PlatformVm}">
+        <view:Platform />
+    </DataTemplate>
+</ResourceDictionary>

@@ -1,0 +1,1888 @@
+﻿<UserControl x:Class="wpf.ui.views.diagrams.envControl.mode.StationBlock"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:wpf.ui.views.diagrams.electric"
+             xmlns:vm="clr-namespace:wpf.ui.viewmodels.diagrams.electric"
+             xmlns:ctrl="clr-namespace:wpf.ui.views.diagrams.common">
+    <UserControl.Resources>
+        
+    </UserControl.Resources>
+    <Grid HorizontalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ctrl:Caption Grid.Row="0"
+              FontSize="26"
+              Foreground="{Binding CaptionForeground}"
+              StationName="{Binding RouteService.StationName}"
+              CaptionText="车站阻塞模式表">
+        </ctrl:Caption>
+        <Grid Grid.Row="2" Visibility="{Binding FirstPageVisibility}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120" ></ColumnDefinition>
+                <ColumnDefinition Width="100" ></ColumnDefinition>
+                <ColumnDefinition Width="60" ></ColumnDefinition>
+                <ColumnDefinition Width="60" ></ColumnDefinition>
+                <ColumnDefinition Width="60" ></ColumnDefinition>
+                <ColumnDefinition Width="60" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                
+            </Border>
+            <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+
+            </Border>
+            <Border Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049001" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049002" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049003" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049004" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049005" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049006" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049007" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049008" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049009" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049010" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049011" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049012" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                
+            </Border>
+
+            <Border Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="设备名称" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="设备编号" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="运行状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="送风机" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="ZSF-I" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="ZSF-II" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="排风机" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="ZPF-I" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="ZPF-II" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="反向" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="正向" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="0" Grid.Column="6" Grid.ColumnSpan="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="组合风阀" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="DM-I-1" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="DM-I-2" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="DM-I-3" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="DM-I-4" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="DM-I-5" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="DM-I-6" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="DM-I-7" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="DM-II-1" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="DM-II-2" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="DM-II-3" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="DM-II-4" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="DM-II-5" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="DM-II-6" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="19" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="DM-II-7" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="19" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="19" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="19" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="19" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="19" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="19" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="19" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="19" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="19" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="19" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="19" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="19" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="19" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Row="2" Visibility="{Binding SecondPageVisibility}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120" ></ColumnDefinition>
+                <ColumnDefinition Width="100" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="90" ></ColumnDefinition>
+                <ColumnDefinition Width="90" ></ColumnDefinition>
+                <ColumnDefinition Width="90" ></ColumnDefinition>
+                <ColumnDefinition Width="90" ></ColumnDefinition>
+                <ColumnDefinition Width="90" ></ColumnDefinition>
+                <ColumnDefinition Width="90" ></ColumnDefinition>
+                <ColumnDefinition Width="90" ></ColumnDefinition>
+                <ColumnDefinition Width="90" ></ColumnDefinition>
+                <ColumnDefinition Width="90" ></ColumnDefinition>
+                <ColumnDefinition Width="90" ></ColumnDefinition>
+                <ColumnDefinition Width="50" ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+
+            </Border>
+            <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+
+            </Border>
+            <Border Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049001" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049002" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049003" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049004" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049005" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049006" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049007" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049008" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049009" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049010" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049011" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="20" Text="049012" Foreground="Black" VerticalAlignment="Center"></TextBlock>
+                    <Label Background="White" Width="30" Height="30" VerticalAlignment="Center" Margin="5,0,0,0"></Label>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+
+            </Border>
+
+            <Border Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="设备名称" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="设备编号" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="目标状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="运行状态" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="电动防烟防火阀" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="FD-I-2" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="FD-I-3" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            
+            <Border Grid.Row="1" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="FD-I-4" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="FD-II-2" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            
+            <Border Grid.Row="1" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="FD-II-3" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="FD-II-4" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="0" Grid.Column="8" Grid.ColumnSpan="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="电动排烟防火阀" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="HFD-I-1" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="HFD-I-2" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="HFD-I-3" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="HFD-I-4" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="11" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="HFD-I-5" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="12" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="HFD-II-1" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="13" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="HFD-II-2" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="14" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="HFD-II-3" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="15" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="HFD-II-4" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="16" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="HFD-II-5" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="11" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="13" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="关闭" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="17" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="0" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="表冷" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="BLQ" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+            </Border>
+            <Border Grid.Row="4" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+            </Border>
+            <Border Grid.Row="6" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+            </Border>
+            <Border Grid.Row="7" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+            </Border>
+            <Border Grid.Row="9" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="10" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+            </Border>
+            <Border Grid.Row="11" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="12" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+            </Border>
+            <Border Grid.Row="13" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="打开" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+            <Border Grid.Row="14" Grid.Column="18" BorderBrush="Black" BorderThickness="1">
+                <TextBlock FontSize="20" Text="无效" Foreground="White" Background="Blue" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Border>
+        </Grid>
+        
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="下一页" FontSize="15" Foreground="Black" Width="200" Height="30" Command="{Binding NextPageClickCommand}" Visibility="{Binding FirstPageVisibility}"></Button>
+            <Button Content="蒲--天区间设备" FontSize="15" Foreground="Black" Width="200" Height="30" Command="{Binding ClickCommand}" CommandParameter="" Margin="10,0,0,0" Visibility="{Binding FirstPageVisibility}"></Button>
+            <Button Content="上一页" FontSize="15" Foreground="Black" Width="200" Height="30" Command="{Binding PreviousPageClickCommand}" Margin="10,0,0,0" Visibility="{Binding SecondPageVisibility}"></Button>
+            <Button Content="阻塞模式" FontSize="15" Foreground="Black" Width="200" Height="30" Command="{Binding ClickCommand}" CommandParameter="模式-区间" Margin="10,0,0,0"></Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

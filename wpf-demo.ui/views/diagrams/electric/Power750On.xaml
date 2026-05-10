@@ -1,0 +1,1801 @@
+﻿<UserControl x:Class="wpf.ui.views.diagrams.electric.Power750On"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:breaker="clr-namespace:wpf.ui.controls.buttons">
+    <Canvas Width="1895" Height="702">
+        <Canvas Canvas.Left="-12.3251998448485" Canvas.Top="-234.400006103516">
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="0.994491577148438 0 0 1.14654541015625 12.8500003814697 -45.4000015258789"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="1.00553894042969 0 0 0.872177124023438 -12.8999996185303 39.5499992370605"/>
+                    </Canvas.RenderTransform>
+                    <Path Name="Layer4_0_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M12.85,317.768258666992L1664.84968338013,317.768258666992 1664.84968338013,935.756234741211 12.85,935.756234741211 12.85,317.768258666992z"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="0.962554931640625 0 0 1.1282958984375 65.6999969482422 -34.7999992370605"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="1.03889465332031 0 0 0.88629150390625 -68.25 30.7999992370605"/>
+                    </Canvas.RenderTransform>
+                    <Path Name="Layer4_1_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M1664.64812469482,353.446618652344L1906.63443450928,353.446618652344 1906.63443450928,851.420013427734 1664.64812469482,851.420013427734 1664.64812469482,353.446618652344z"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1 0 0 1.15943908691406 29 -79.6999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Path Name="Layer4_2_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M57,343L57,876"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1 0 0 1.15943908691406 134.25 -79.6999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Path Name="Layer4_3_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M57,343L57,876"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1 0 0 1.15943908691406 239.5 -79.6999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Path Name="Layer4_4_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M57,343L57,876"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1 0 0 1.15943908691406 344.75 -79.6999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Path Name="Layer4_5_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M57,343L57,876"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1 0 0 1.15943908691406 450 -79.6999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Path Name="Layer4_6_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M57,343L57,876"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1 0 0 1.15943908691406 555.25 -79.6999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Path Name="Layer4_7_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M57,343L57,876"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1 0 0 1.15943908691406 660.5 -79.6999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Path Name="Layer4_8_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M57,343L57,876"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1 0 0 1.15943908691406 765.75 -79.6999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Path Name="Layer4_9_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M57,343L57,876"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1 0 0 1.15943908691406 871 -79.6999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Path Name="Layer4_10_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M57,343L57,876"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1 0 0 1.15943908691406 976.25 -79.6999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Path Name="Layer4_11_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M57,343L57,876"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1 0 0 1.15943908691406 1081.5 -79.6999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Path Name="Layer4_12_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M57,343L57,876"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1 0 0 1.15943908691406 1186.75 -79.6999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Path Name="Layer4_13_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M57,343L57,876"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1 0 0 1.15943908691406 1292 -79.6999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Path Name="Layer4_14_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M57,343L57,876"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1 0 0 1.15943908691406 1397.25 -79.6999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Path Name="Layer4_15_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M57,343L57,876"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1 0 0 1.15943908691406 1503 -79.6999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Path Name="Layer4_16_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M57,343L57,876"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1.03314208984375 0 0 1 -19.7000007629395 21.8500003814697"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.967910766601563 0 0 1 19.0499992370605 -21.8500003814697"/>
+                    </Canvas.RenderTransform>
+                    <Path Name="Layer4_17_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M12.8439758300781,413.35L1664.83817749023,413.35"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1.03314208984375 0 0 1 -19.7000007629395 69.1999969482422"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.967910766601563 0 0 1 19.0499992370605 -69.1999969482422"/>
+                    </Canvas.RenderTransform>
+                    <Path Name="Layer4_18_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M12.8439758300781,460.7L1664.83817749023,460.7"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1.03314208984375 0 0 1 -19.7000007629395 116.550003051758"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.967910766601563 0 0 1 19.0499992370605 -116.550003051758"/>
+                    </Canvas.RenderTransform>
+                    <Path Name="Layer4_19_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M12.8439758300781,508.05L1664.83817749023,508.05"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1.03314208984375 0 0 1 -19.7000007629395 163.899993896484"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.967910766601563 0 0 1 19.0499992370605 -163.899993896484"/>
+                    </Canvas.RenderTransform>
+                    <Path Name="Layer4_20_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M12.8439758300781,555.4L1664.83817749023,555.4"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1.03314208984375 0 0 1 -19.7000007629395 211.25"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.967910766601563 0 0 1 19.0499992370605 -211.25"/>
+                    </Canvas.RenderTransform>
+                    <Path Name="Layer4_21_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M12.8439758300781,602.75L1664.83817749023,602.75"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1.03314208984375 0 0 1 -19.7000007629395 258.600006103516"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.967910766601563 0 0 1 19.0499992370605 -258.600006103516"/>
+                    </Canvas.RenderTransform>
+                    <Path Name="Layer4_22_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M12.8439758300781,650.1L1664.83817749023,650.1"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1.03314208984375 0 0 1 -19.7000007629395 305.950012207031"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.967910766601563 0 0 1 19.0499992370605 -305.950012207031"/>
+                    </Canvas.RenderTransform>
+                    <Path Name="Layer4_23_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M12.8439758300781,697.45L1664.83817749023,697.45"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1.03314208984375 0 0 1 -19.7000007629395 353.299987792969"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.967910766601563 0 0 1 19.0499992370605 -353.299987792969"/>
+                    </Canvas.RenderTransform>
+                    <Path Name="Layer4_24_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M12.8439758300781,744.8L1664.83817749023,744.8"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1.03314208984375 0 0 1 -19.7000007629395 400.649993896484"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.967910766601563 0 0 1 19.0499992370605 -400.649993896484"/>
+                    </Canvas.RenderTransform>
+                    <Path Name="Layer4_25_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M12.8439758300781,792.15L1664.83817749023,792.15"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1.03314208984375 0 0 1 -19.7000007629395 448"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.967910766601563 0 0 1 19.0499992370605 -448"/>
+                    </Canvas.RenderTransform>
+                    <Path Name="Layer4_26_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M12.8439758300781,839.5L1664.83817749023,839.5"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1.03314208984375 0 0 1 -19.7000007629395 495.5"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.967910766601563 0 0 1 19.0499992370605 -495.5"/>
+                    </Canvas.RenderTransform>
+                    <Path Name="Layer4_27_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M12.8439758300781,887L1664.83817749023,887"/>
+                </Canvas>
+            </Canvas>
+            <Canvas>
+                <Canvas.RenderTransform>
+                    <MatrixTransform Matrix="1.03314208984375 0 0 1 -19.7000007629395 -25.5"/>
+                </Canvas.RenderTransform>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.967910766601563 0 0 1 19.0499992370605 25.5"/>
+                    </Canvas.RenderTransform>
+                    <Path Name="Layer4_28_1_STROKES" Stroke="Black" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M12.8439758300781,366L1664.83817749023,366"/>
+                </Canvas>
+            </Canvas>
+            <Canvas Canvas.Left="86" Canvas.Top="275.200012207031">
+                <Canvas Canvas.Left="-2" Canvas.Top="-11">
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_0_FILL">
+                            <Path Fill="Gray" StrokeThickness="1" Data="F1M107,11L100.7,15.95 7.7,46.95 2,52.4 107,52.4 107,11z"/>
+                            <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M100.7,15.95L107,11 2,11 2,52.4 7.7,46.95 100.7,15.95z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.897613525390625 0 0 0.8824462890625 -224.699996948242 -42"/>
+                    </Canvas.RenderTransform>
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_1_FILL">
+                            <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M364.5,92.05L364.5,50.05 253.1,50.05 253.1,92.05 364.5,92.05z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <Canvas Canvas.Left="191.350006103516" Canvas.Top="275.200012207031">
+                <Canvas Canvas.Left="-2" Canvas.Top="-11">
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_0_FILL_1">
+                            <Path Fill="#FF2C2918" StrokeThickness="1" Data="F1M107,11L100.7,15.95 7.7,46.95 2,52.4 107,52.4 107,11z"/>
+                            <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M100.7,15.95L107,11 2,11 2,52.4 7.7,46.95 100.7,15.95z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.897613525390625 0 0 0.8824462890625 -224.699996948242 -42"/>
+                    </Canvas.RenderTransform>
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_1_FILL_1">
+                            <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M364.5,92.05L364.5,50.05 253.1,50.05 253.1,92.05 364.5,92.05z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <Canvas Canvas.Left="296.700012207031" Canvas.Top="275.200012207031">
+                <Canvas Canvas.Left="-2" Canvas.Top="-11">
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_0_FILL_2">
+                            <Path Fill="#FF2C2918" StrokeThickness="1" Data="F1M107,11L100.7,15.95 7.7,46.95 2,52.4 107,52.4 107,11z"/>
+                            <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M100.7,15.95L107,11 2,11 2,52.4 7.7,46.95 100.7,15.95z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.897613525390625 0 0 0.8824462890625 -224.699996948242 -42"/>
+                    </Canvas.RenderTransform>
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_1_FILL_2">
+                            <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M364.5,92.05L364.5,50.05 253.1,50.05 253.1,92.05 364.5,92.05z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <Canvas Canvas.Left="402.049987792969" Canvas.Top="275.200012207031">
+                <Canvas Canvas.Left="-2" Canvas.Top="-11">
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_0_FILL_3">
+                            <Path Fill="Gray" StrokeThickness="1" Data="F1M107,11L100.7,15.95 7.7,46.95 2,52.4 107,52.4 107,11z"/>
+                            <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M100.7,15.95L107,11 2,11 2,52.4 7.7,46.95 100.7,15.95z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.897613525390625 0 0 0.8824462890625 -224.699996948242 -42"/>
+                    </Canvas.RenderTransform>
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_1_FILL_3">
+                            <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M364.5,92.05L364.5,50.05 253.1,50.05 253.1,92.05 364.5,92.05z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <Canvas Canvas.Left="507.399993896484" Canvas.Top="275.200012207031">
+                <Canvas Canvas.Left="-2" Canvas.Top="-11">
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_0_FILL_4">
+                            <Path Fill="#FF2C2918" StrokeThickness="1" Data="F1M107,11L100.7,15.95 7.7,46.95 2,52.4 107,52.4 107,11z"/>
+                            <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M100.7,15.95L107,11 2,11 2,52.4 7.7,46.95 100.7,15.95z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.897613525390625 0 0 0.8824462890625 -224.699996948242 -42"/>
+                    </Canvas.RenderTransform>
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_1_FILL_4">
+                            <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M364.5,92.05L364.5,50.05 253.1,50.05 253.1,92.05 364.5,92.05z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <Canvas Canvas.Left="612.75" Canvas.Top="275.200012207031">
+                <Canvas Canvas.Left="-2" Canvas.Top="-11">
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_0_FILL_5">
+                            <Path Fill="#FF2C2918" StrokeThickness="1" Data="F1M107,11L100.7,15.95 7.7,46.95 2,52.4 107,52.4 107,11z"/>
+                            <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M100.7,15.95L107,11 2,11 2,52.4 7.7,46.95 100.7,15.95z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.897613525390625 0 0 0.8824462890625 -224.699996948242 -42"/>
+                    </Canvas.RenderTransform>
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_1_FILL_5">
+                            <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M364.5,92.05L364.5,50.05 253.1,50.05 253.1,92.05 364.5,92.05z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <Canvas Canvas.Left="718.099975585938" Canvas.Top="275.200012207031">
+                <Canvas Canvas.Left="-2" Canvas.Top="-11">
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_0_FILL_6">
+                            <Path Fill="Gray" StrokeThickness="1" Data="F1M107,11L100.7,15.95 7.7,46.95 2,52.4 107,52.4 107,11z"/>
+                            <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M100.7,15.95L107,11 2,11 2,52.4 7.7,46.95 100.7,15.95z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.897613525390625 0 0 0.8824462890625 -224.699996948242 -42"/>
+                    </Canvas.RenderTransform>
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_1_FILL_6">
+                            <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M364.5,92.05L364.5,50.05 253.1,50.05 253.1,92.05 364.5,92.05z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <Canvas Canvas.Left="823.450012207031" Canvas.Top="275.200012207031">
+                <Canvas Canvas.Left="-2" Canvas.Top="-11">
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_0_FILL_7">
+                            <Path Fill="#FF2C2918" StrokeThickness="1" Data="F1M107,11L100.7,15.95 7.7,46.95 2,52.4 107,52.4 107,11z"/>
+                            <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M100.7,15.95L107,11 2,11 2,52.4 7.7,46.95 100.7,15.95z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.897613525390625 0 0 0.8824462890625 -224.699996948242 -42"/>
+                    </Canvas.RenderTransform>
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_1_FILL_7">
+                            <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M364.5,92.05L364.5,50.05 253.1,50.05 253.1,92.05 364.5,92.05z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <Canvas Canvas.Left="928.799987792969" Canvas.Top="275.200012207031">
+                <Canvas Canvas.Left="-2" Canvas.Top="-11">
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_0_FILL_8">
+                            <Path Fill="#FF2C2918" StrokeThickness="1" Data="F1M107,11L100.7,15.95 7.7,46.95 2,52.4 107,52.4 107,11z"/>
+                            <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M100.7,15.95L107,11 2,11 2,52.4 7.7,46.95 100.7,15.95z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.897613525390625 0 0 0.8824462890625 -224.699996948242 -42"/>
+                    </Canvas.RenderTransform>
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_1_FILL_8">
+                            <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M364.5,92.05L364.5,50.05 253.1,50.05 253.1,92.05 364.5,92.05z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <Canvas Canvas.Left="1034.15002441406" Canvas.Top="275.200012207031">
+                <Canvas Canvas.Left="-2" Canvas.Top="-11">
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_0_FILL_9">
+                            <Path Fill="Gray" StrokeThickness="1" Data="F1M107,11L100.7,15.95 7.7,46.95 2,52.4 107,52.4 107,11z"/>
+                            <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M100.7,15.95L107,11 2,11 2,52.4 7.7,46.95 100.7,15.95z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.897613525390625 0 0 0.8824462890625 -224.699996948242 -42"/>
+                    </Canvas.RenderTransform>
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_1_FILL_9">
+                            <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M364.5,92.05L364.5,50.05 253.1,50.05 253.1,92.05 364.5,92.05z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <Canvas Canvas.Left="1139.5" Canvas.Top="275.200012207031">
+                <Canvas Canvas.Left="-2" Canvas.Top="-11">
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_0_FILL_10">
+                            <Path Fill="#FF2C2918" StrokeThickness="1" Data="F1M107,11L100.7,15.95 7.7,46.95 2,52.4 107,52.4 107,11z"/>
+                            <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M100.7,15.95L107,11 2,11 2,52.4 7.7,46.95 100.7,15.95z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.897613525390625 0 0 0.8824462890625 -224.699996948242 -42"/>
+                    </Canvas.RenderTransform>
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_1_FILL_10">
+                            <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M364.5,92.05L364.5,50.05 253.1,50.05 253.1,92.05 364.5,92.05z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <Canvas Canvas.Left="1244.84997558594" Canvas.Top="275.200012207031">
+                <Canvas Canvas.Left="-2" Canvas.Top="-11">
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_0_FILL_11">
+                            <Path Fill="#FF2C2918" StrokeThickness="1" Data="F1M107,11L100.7,15.95 7.7,46.95 2,52.4 107,52.4 107,11z"/>
+                            <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M100.7,15.95L107,11 2,11 2,52.4 7.7,46.95 100.7,15.95z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.897613525390625 0 0 0.8824462890625 -224.699996948242 -42"/>
+                    </Canvas.RenderTransform>
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_1_FILL_11">
+                            <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M364.5,92.05L364.5,50.05 253.1,50.05 253.1,92.05 364.5,92.05z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <Canvas Canvas.Left="1350.19995117188" Canvas.Top="275.200012207031">
+                <Canvas Canvas.Left="-2" Canvas.Top="-11">
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_0_FILL_12">
+                            <Path Fill="Gray" StrokeThickness="1" Data="F1M107,11L100.7,15.95 7.7,46.95 2,52.4 107,52.4 107,11z"/>
+                            <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M100.7,15.95L107,11 2,11 2,52.4 7.7,46.95 100.7,15.95z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.897613525390625 0 0 0.8824462890625 -224.699996948242 -42"/>
+                    </Canvas.RenderTransform>
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_1_FILL_12">
+                            <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M364.5,92.05L364.5,50.05 253.1,50.05 253.1,92.05 364.5,92.05z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <Canvas Canvas.Left="1455.55004882813" Canvas.Top="275.200012207031">
+                <Canvas Canvas.Left="-2" Canvas.Top="-11">
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_0_FILL_13">
+                            <Path Fill="#FF2C2918" StrokeThickness="1" Data="F1M107,11L100.7,15.95 7.7,46.95 2,52.4 107,52.4 107,11z"/>
+                            <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M100.7,15.95L107,11 2,11 2,52.4 7.7,46.95 100.7,15.95z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.897613525390625 0 0 0.8824462890625 -224.699996948242 -42"/>
+                    </Canvas.RenderTransform>
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_1_FILL_13">
+                            <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M364.5,92.05L364.5,50.05 253.1,50.05 253.1,92.05 364.5,92.05z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+            <Canvas Canvas.Left="1561" Canvas.Top="275.200012207031">
+                <Canvas Canvas.Left="-2" Canvas.Top="-11">
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_0_FILL_14">
+                            <Path Fill="#FF2C2918" StrokeThickness="1" Data="F1M107,11L100.7,15.95 7.7,46.95 2,52.4 107,52.4 107,11z"/>
+                            <Path Fill="#FFF0F0F0" StrokeThickness="1" Data="F1M100.7,15.95L107,11 2,11 2,52.4 7.7,46.95 100.7,15.95z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <MatrixTransform Matrix="0.897613525390625 0 0 0.8824462890625 -224.699996948242 -42"/>
+                    </Canvas.RenderTransform>
+                    <Canvas>
+                        <Canvas Name="___4_0_Layer0_1_FILL_14">
+                            <Path Fill="#FFDAD9D8" StrokeThickness="1" Data="F1M364.5,92.05L364.5,50.05 253.1,50.05 253.1,92.05 364.5,92.05z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+
+
+
+                <Canvas Canvas.Left="1700.5" Canvas.Top="396.5">
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1.1226806640625 0 0 1.12118530273438 -128.550003051758 -382.899993896484"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="___5_1_Layer0_0_FILL">
+                                <Path Fill="#FF004EA2" StrokeThickness="1" Data="F1M142.65,346.3Q137.85,341.5 131,341.5 124.15,341.5 119.3,346.3 114.5,351.15 114.5,358 114.5,364.85 119.3,369.65 124.15,374.5 131,374.5 137.85,374.5 142.65,369.65 147.5,364.85 147.5,358 147.5,351.15 142.65,346.3z"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.890716552734375 0 0 0.89190673828125 114.5 341.5"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="___5_1_Layer0_0_1_STROKES" Stroke="#FF004EA2" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M37.0453979492187,18.4843383789063Q37.0453979492187,26.1644577026368 31.6003967285156,31.5461471557617 26.2115295410156,36.9838958740235 18.5211669921875,36.9838958740235 10.8308044433594,36.9838958740235 5.38580322265622,31.5461471557617 -0.00306396484376137,26.1644577026368 -0.00306396484376137,18.4843383789063 -0.00306396484376137,10.8042190551758 5.38580322265622,5.36647033691412 10.8308044433594,-0.0152191162109148 18.5211669921875,-0.0152191162109148 26.2115295410156,-0.0152191162109148 31.6003967285156,5.36647033691412 37.0453979492187,10.8042190551758 37.0453979492187,18.4843383789063z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas Canvas.Left="1827.5" Canvas.Top="396.5">
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1.1226806640625 0 0 1.12118530273438 -128.550003051758 -382.899993896484"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.890716552734375 0 0 0.89190673828125 114.5 341.5"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="___5_0_Layer0_0_1_STROKES_30" Stroke="#FF004EA2" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M37.0453979492187,18.4843383789063Q37.0453979492187,26.1644577026368 31.6003967285156,31.5461471557617 26.2115295410156,36.9838958740235 18.5211669921875,36.9838958740235 10.8308044433594,36.9838958740235 5.38580322265622,31.5461471557617 -0.00306396484376137,26.1644577026368 -0.00306396484376137,18.4843383789063 -0.00306396484376137,10.8042190551758 5.38580322265622,5.36647033691412 10.8308044433594,-0.0152191162109148 18.5211669921875,-0.0152191162109148 26.2115295410156,-0.0152191162109148 31.6003967285156,5.36647033691412 37.0453979492187,10.8042190551758 37.0453979492187,18.4843383789063z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas Canvas.Left="1700.5" Canvas.Top="473.5">
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1.1226806640625 0 0 1.12118530273438 -128.550003051758 -382.899993896484"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="___5_2_Layer0_0_FILL">
+                                <Path Fill="#FFFF33E9" StrokeThickness="1" Data="F1M142.65,346.3Q137.85,341.5 131,341.5 124.15,341.5 119.3,346.3 114.5,351.15 114.5,358 114.5,364.85 119.3,369.65 124.15,374.5 131,374.5 137.85,374.5 142.65,369.65 147.5,364.85 147.5,358 147.5,351.15 142.65,346.3z"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.890716552734375 0 0 0.89190673828125 114.5 341.5"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="___5_2_Layer0_0_1_STROKES" Stroke="#FF004EA2" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M37.0453979492187,18.4843383789063Q37.0453979492187,26.1644577026368 31.6003967285156,31.5461471557617 26.2115295410156,36.9838958740235 18.5211669921875,36.9838958740235 10.8308044433594,36.9838958740235 5.38580322265622,31.5461471557617 -0.00306396484376137,26.1644577026368 -0.00306396484376137,18.4843383789063 -0.00306396484376137,10.8042190551758 5.38580322265622,5.36647033691412 10.8308044433594,-0.0152191162109148 18.5211669921875,-0.0152191162109148 26.2115295410156,-0.0152191162109148 31.6003967285156,5.36647033691412 37.0453979492187,10.8042190551758 37.0453979492187,18.4843383789063z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas Canvas.Left="1827.5" Canvas.Top="473.5">
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1.1226806640625 0 0 1.12118530273438 -128.550003051758 -382.899993896484"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="___5_3_Layer0_0_FILL">
+                                <Path Fill="#FF8B1DD1" StrokeThickness="1" Data="F1M142.65,346.3Q137.85,341.5 131,341.5 124.15,341.5 119.3,346.3 114.5,351.15 114.5,358 114.5,364.85 119.3,369.65 124.15,374.5 131,374.5 137.85,374.5 142.65,369.65 147.5,364.85 147.5,358 147.5,351.15 142.65,346.3z"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.890716552734375 0 0 0.89190673828125 114.5 341.5"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="___5_3_Layer0_0_1_STROKES" Stroke="#FF004EA2" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M37.0453979492187,18.4843383789063Q37.0453979492187,26.1644577026368 31.6003967285156,31.5461471557617 26.2115295410156,36.9838958740235 18.5211669921875,36.9838958740235 10.8308044433594,36.9838958740235 5.38580322265622,31.5461471557617 -0.00306396484376137,26.1644577026368 -0.00306396484376137,18.4843383789063 -0.00306396484376137,10.8042190551758 5.38580322265622,5.36647033691412 10.8308044433594,-0.0152191162109148 18.5211669921875,-0.0152191162109148 26.2115295410156,-0.0152191162109148 31.6003967285156,5.36647033691412 37.0453979492187,10.8042190551758 37.0453979492187,18.4843383789063z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas Canvas.Left="1695" Canvas.Top="556">
+                    <Canvas Canvas.Left="-107.5" Canvas.Top="-438.5">
+                        <Canvas>
+                            <Canvas Name="___7_1_Layer0_0_FILL_15">
+                                <Path Fill="#FFFBAE3B" StrokeThickness="1" Data="F1M155.5,438.5L107.5,438.5 107.5,462.5 155.5,462.5 155.5,438.5z"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Path Name="___7_1_Layer0_0_1_STROKES_15" Stroke="#FFFBAE3B" StrokeThickness="3" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M107.5,438.5L155.5,438.5 155.5,462.5 107.5,462.5 107.5,438.5z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas Canvas.Left="1822" Canvas.Top="556">
+                    <Canvas Canvas.Left="-107.5" Canvas.Top="-438.5">
+                        <Canvas>
+                            <Path Name="___7_0_Layer0_0_1_STROKES_91" Stroke="#FFFBAE3B" StrokeThickness="3" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M107.5,438.5L155.5,438.5 155.5,462.5 107.5,462.5 107.5,438.5z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas Canvas.Left="1695" Canvas.Top="631">
+                    <Canvas Canvas.Left="-107.5" Canvas.Top="-438.5">
+                        <Canvas>
+                            <Canvas Name="___7_2_Layer0_0_FILL">
+                                <Path Fill="#FFFF33E9" StrokeThickness="1" Data="F1M155.5,438.5L107.5,438.5 107.5,462.5 155.5,462.5 155.5,438.5z"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Path Name="___7_2_Layer0_0_1_STROKES" Stroke="#FFFBAE3B" StrokeThickness="3" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M107.5,438.5L155.5,438.5 155.5,462.5 107.5,462.5 107.5,438.5z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas Canvas.Left="1822" Canvas.Top="631">
+                    <Canvas Canvas.Left="-107.5" Canvas.Top="-438.5">
+                        <Canvas>
+                            <Canvas Name="___7_3_Layer0_0_FILL">
+                                <Path Fill="#FF8B1DD1" StrokeThickness="1" Data="F1M155.5,438.5L107.5,438.5 107.5,462.5 155.5,462.5 155.5,438.5z"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Path Name="___7_3_Layer0_0_1_STROKES" Stroke="#FFFBAE3B" StrokeThickness="3" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M107.5,438.5L155.5,438.5 155.5,462.5 107.5,462.5 107.5,438.5z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas Canvas.Left="1700.5" Canvas.Top="701.5">
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <MatrixTransform Matrix="1.1226806640625 0 0 1.12118530273438 -128.550003051758 -382.899993896484"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas Name="___5_4_Layer0_0_FILL">
+                                <Path Fill="#FF33E9" StrokeThickness="1" Data="F1M142.65,346.3Q137.85,341.5 131,341.5 124.15,341.5 119.3,346.3 114.5,351.15 114.5,358 114.5,364.85 119.3,369.65 124.15,374.5 131,374.5 137.85,374.5 142.65,369.65 147.5,364.85 147.5,358 147.5,351.15 142.65,346.3z"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <MatrixTransform Matrix="0.890716552734375 0 0 0.89190673828125 114.5 341.5"/>
+                            </Canvas.RenderTransform>
+                            <Path Name="___5_4_Layer0_0_1_STROKES" Stroke="#FFFF33E9" StrokeThickness="3" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" Data="F1M37.0453979492187,18.4843383789063Q37.0453979492187,26.1644577026368 31.6003967285156,31.5461471557617 26.2115295410156,36.9838958740235 18.5211669921875,36.9838958740235 10.8308044433594,36.9838958740235 5.38580322265622,31.5461471557617 -0.00306396484376137,26.1644577026368 -0.00306396484376137,18.4843383789063 -0.00306396484376137,10.8042190551758 5.38580322265622,5.36647033691412 10.8308044433594,-0.0152191162109148 18.5211669921875,-0.0152191162109148 26.2115295410156,-0.0152191162109148 31.6003967285156,5.36647033691412 37.0453979492187,10.8042190551758 37.0453979492187,18.4843383789063z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas Canvas.Left="1695" Canvas.Top="785">
+                    <Canvas Canvas.Left="-107.5" Canvas.Top="-438.5">
+                        <Canvas>
+                            <Canvas Name="___7_4_Layer0_0_FILL">
+                                <Path Fill="#FFFF33E9" StrokeThickness="1" Data="F1M155.5,438.5L107.5,438.5 107.5,462.5 155.5,462.5 155.5,438.5z"/>
+                            </Canvas>
+                        </Canvas>
+                        <Canvas>
+                            <Path Name="___7_4_Layer0_0_1_STROKES" Stroke="#FFFF33E9" StrokeThickness="3" StrokeStartLineCap="Square" StrokeEndLineCap="Square" StrokeDashCap="Square" StrokeMiterLimit="2" Data="F1M107.5,438.5L155.5,438.5 155.5,462.5 107.5,462.5 107.5,438.5z"/>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+                <Canvas Canvas.Left="-22.7000007629395" Canvas.Top="325.200012207031">
+                    <TextBlock Text="65" FontSize="26" Foreground="Black" Canvas.Left="56.75" Canvas.Top="4.1">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-6.1L32.6,-6.1 32.6,32.2 -2.1,32.2z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="-22.7000007629395" Canvas.Top="373.200012207031">
+                    <TextBlock Text="61" FontSize="26" Foreground="Black" Canvas.Left="56.75" Canvas.Top="4.1">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-6.1L32.6,-6.1 32.6,32.2 -2.1,32.2z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="-22.7000007629395" Canvas.Top="419.200012207031">
+                    <TextBlock Text="60" FontSize="26" Foreground="Black" Canvas.Left="56.75" Canvas.Top="4.1">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-6.1L32.6,-6.1 32.6,32.2 -2.1,32.2z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="-22.7000007629395" Canvas.Top="467.200012207031">
+                    <TextBlock Text="75" FontSize="26" Foreground="Black" Canvas.Left="56.75" Canvas.Top="4.1">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-6.1L32.6,-6.1 32.6,32.2 -2.1,32.2z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="-22.7000007629395" Canvas.Top="515.200012207031">
+                    <TextBlock Text="71" FontSize="26" Foreground="Black" Canvas.Left="56.75" Canvas.Top="4.1">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-6.1L32.6,-6.1 32.6,32.2 -2.1,32.2z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="-22.7000007629395" Canvas.Top="561.200012207031">
+                    <TextBlock Text="70" FontSize="26" Foreground="Black" Canvas.Left="56.75" Canvas.Top="4.1">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-6.1L32.6,-6.1 32.6,32.2 -2.1,32.2z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="-22.7000007629395" Canvas.Top="609.200012207031">
+                    <TextBlock Text="10" FontSize="26" Foreground="Black" Canvas.Left="56.75" Canvas.Top="4.1">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-6.1L32.6,-6.1 32.6,32.2 -2.1,32.2z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="-22.7000007629395" Canvas.Top="656.200012207031">
+                    <TextBlock Text="20" FontSize="26" Foreground="Black" Canvas.Left="56.75" Canvas.Top="4.1">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-6.1L32.6,-6.1 32.6,32.2 -2.1,32.2z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="-22.7000007629395" Canvas.Top="703.200012207031">
+                    <TextBlock Text="30" FontSize="26" Foreground="Black" Canvas.Left="56.75" Canvas.Top="4.1">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-6.1L32.6,-6.1 32.6,32.2 -2.1,32.2z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="-22.7000007629395" Canvas.Top="751.200012207031">
+                    <TextBlock Text="40" FontSize="26" Foreground="Black" Canvas.Left="56.75" Canvas.Top="4.1">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-6.1L32.6,-6.1 32.6,32.2 -2.1,32.2z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="-22.7000007629395" Canvas.Top="798.200012207031">
+                    <TextBlock Text="50" FontSize="26" Foreground="Black" Canvas.Left="56.75" Canvas.Top="4.1">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-6.1L32.6,-6.1 32.6,32.2 -2.1,32.2z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="-22.7000007629395" Canvas.Top="846.200012207031">
+                    <TextBlock Text="90" FontSize="26" Foreground="Black" Canvas.Left="56.75" Canvas.Top="4.1">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-6.1L32.6,-6.1 32.6,32.2 -2.1,32.2z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="-22.7000007629395" Canvas.Top="894.200012207031">
+                    <TextBlock Text="80" FontSize="26" Foreground="Black" Canvas.Left="56.75" Canvas.Top="4.1">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-6.1L32.6,-6.1 32.6,32.2 -2.1,32.2z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="135.5" Canvas.Top="282.700012207031">
+                    <TextBlock Text="宋家庄" FontSize="20" Foreground="#FF333333" Canvas.Left="-27" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L62.1,-5.15 62.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="171.850006103516" Canvas.Top="282.700012207031">
+                    <TextBlock Text="蒲黄榆" FontSize="20" Foreground="#FF333333" Canvas.Left="42" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L62.1,-5.15 62.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="277.200012207031" Canvas.Top="282.700012207031">
+                    <TextBlock Text="天坛东" FontSize="20" Foreground="#FF333333" Canvas.Left="42" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L62.1,-5.15 62.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="382.549987792969" Canvas.Top="282.700012207031">
+                    <TextBlock Text="磁器口" FontSize="20" Foreground="#FF333333" Canvas.Left="42" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L62.1,-5.15 62.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="487.899993896484" Canvas.Top="282.700012207031">
+                    <TextBlock Text="东单" FontSize="20" Foreground="#FF333333" Canvas.Left="52" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L42.1,-5.15 42.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="593.25" Canvas.Top="282.700012207031">
+                    <TextBlock Text="东四" FontSize="20" Foreground="#FF333333" Canvas.Left="52" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L42.1,-5.15 42.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="698.599975585938" Canvas.Top="282.700012207031">
+                    <TextBlock Text="雍和宫" FontSize="20" Foreground="#FF333333" Canvas.Left="42" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L62.1,-5.15 62.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="803.950012207031" Canvas.Top="282.700012207031">
+                    <TextBlock Text="和平西" FontSize="20" Foreground="#FF333333" Canvas.Left="42" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L62.1,-5.15 62.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="909.299987792969" Canvas.Top="282.700012207031">
+                    <TextBlock Text="惠新北" FontSize="20" Foreground="#FF333333" Canvas.Left="42" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L62.1,-5.15 62.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="1014.65002441406" Canvas.Top="282.700012207031">
+                    <TextBlock Text="大屯东" FontSize="20" Foreground="#FF333333" Canvas.Left="42" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L62.1,-5.15 62.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="1120" Canvas.Top="282.700012207031">
+                    <TextBlock Text="北苑北" FontSize="20" Foreground="#FF333333" Canvas.Left="42" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L62.1,-5.15 62.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="1225.34997558594" Canvas.Top="282.700012207031">
+                    <TextBlock Text="立水南" FontSize="20" Foreground="#FF333333" Canvas.Left="42" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L62.1,-5.15 62.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="1330.69995117188" Canvas.Top="282.700012207031">
+                    <TextBlock Text="立水桥" FontSize="20" Foreground="#FF333333" Canvas.Left="42" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L62.1,-5.15 62.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="1436.05004882813" Canvas.Top="282.700012207031">
+                    <TextBlock Text="天通南" FontSize="20" Foreground="#FF333333" Canvas.Left="42" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L62.1,-5.15 62.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+            <Canvas Canvas.Left="1541.5" Canvas.Top="282.700012207031">
+                <TextBlock Text="天通北" FontSize="20" Foreground="#FF333333" Canvas.Left="42" Canvas.Top="3.15">
+                    <TextBlock.Clip>
+                        <StreamGeometry>M-2.1,-5.15L62.1,-5.15 62.1,25.25 -2.1,25.25z</StreamGeometry>
+                    </TextBlock.Clip>
+                </TextBlock>
+            </Canvas>
+                <Canvas Canvas.Left="1713.65002441406" Canvas.Top="356.5">
+                    <TextBlock Text="图例" FontSize="24" Foreground="#FF333333" Canvas.Left="48" Canvas.Top="3.8">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.8L50.1,-5.8 50.1,29.9 -2.1,29.9z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="1646.84997558594" Canvas.Top="436.649993896484">
+                    <TextBlock Text="电隔分位" FontSize="20" Foreground="#FF333333" Canvas.Left="32" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L82.1,-5.15 82.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="1774.59997558594" Canvas.Top="436.649993896484">
+                    <TextBlock Text="电隔合位" FontSize="20" Foreground="#FF333333" Canvas.Left="32" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L82.1,-5.15 82.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="1652.69995117188" Canvas.Top="512.849975585938">
+                    <Canvas>
+                        <Canvas.Clip>
+                            <RectangleGeometry Rect="24.05,-2,95.9,30.4"/>
+                        </Canvas.Clip>
+                        <TextBlock Text="电隔全" FontSize="20" Foreground="#FF333333" Canvas.Left="26.15" Canvas.Top="3.15"/>
+                        <TextBlock Text="0" FontSize="20" Foreground="#FF333333" Canvas.Left="86.15" Canvas.Top="3.15"/>
+                        <TextBlock Text="位" FontSize="20" Foreground="#FF333333" Canvas.Left="96.93" Canvas.Top="3.15"/>
+                    </Canvas>
+                </Canvas>
+                <Canvas Canvas.Left="1780.44995117188" Canvas.Top="512.849975585938">
+                    <Canvas>
+                        <Canvas.Clip>
+                            <RectangleGeometry Rect="24.05,-2,95.9,30.4"/>
+                        </Canvas.Clip>
+                        <TextBlock Text="电隔全" FontSize="20" Foreground="#FF333333" Canvas.Left="26.15" Canvas.Top="3.15"/>
+                        <TextBlock Text="1" FontSize="20" Foreground="#FF333333" Canvas.Left="86.15" Canvas.Top="3.15"/>
+                        <TextBlock Text="位" FontSize="20" Foreground="#FF333333" Canvas.Left="96.93" Canvas.Top="3.15"/>
+                    </Canvas>
+                </Canvas>
+                <Canvas Canvas.Left="1646.84997558594" Canvas.Top="589.049987792969">
+                    <TextBlock Text="开关分位" FontSize="20" Foreground="#FF333333" Canvas.Left="32" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L82.1,-5.15 82.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="1774.59997558594" Canvas.Top="589.049987792969">
+                    <TextBlock Text="开关合位" FontSize="20" Foreground="#FF333333" Canvas.Left="32" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L82.1,-5.15 82.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="1652.69995117188" Canvas.Top="665.25">
+                    <Canvas>
+                        <Canvas.Clip>
+                            <RectangleGeometry Rect="24.05,-2,95.9,30.4"/>
+                        </Canvas.Clip>
+                        <TextBlock Text="开关全" FontSize="20" Foreground="#FF333333" Canvas.Left="26.15" Canvas.Top="3.15"/>
+                        <TextBlock Text="0" FontSize="20" Foreground="#FF333333" Canvas.Left="86.15" Canvas.Top="3.15"/>
+                        <TextBlock Text="位" FontSize="20" Foreground="#FF333333" Canvas.Left="96.93" Canvas.Top="3.15"/>
+                    </Canvas>
+                </Canvas>
+                <Canvas Canvas.Left="1780.44995117188" Canvas.Top="665.25">
+                    <Canvas>
+                        <Canvas.Clip>
+                            <RectangleGeometry Rect="24.05,-2,95.9,30.4"/>
+                        </Canvas.Clip>
+                        <TextBlock Text="开关全" FontSize="20" Foreground="#FF333333" Canvas.Left="26.15" Canvas.Top="3.15"/>
+                        <TextBlock Text="1" FontSize="20" Foreground="#FF333333" Canvas.Left="86.15" Canvas.Top="3.15"/>
+                        <TextBlock Text="位" FontSize="20" Foreground="#FF333333" Canvas.Left="96.93" Canvas.Top="3.15"/>
+                    </Canvas>
+                </Canvas>
+                <Canvas Canvas.Left="1666.84997558594" Canvas.Top="741.450012207031">
+                    <TextBlock Text="电隔通讯故障" FontSize="20" Foreground="#FF333333" Canvas.Left="12" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L122.1,-5.15 122.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="1666.84997558594" Canvas.Top="817.799987792969">
+                    <TextBlock Text="开关通讯故障" FontSize="20" Foreground="#FF333333" Canvas.Left="12" Canvas.Top="3.15">
+                        <TextBlock.Clip>
+                            <StreamGeometry>M-2.1,-5.15L122.1,-5.15 122.1,25.25 -2.1,25.25z</StreamGeometry>
+                        </TextBlock.Clip>
+                    </TextBlock>
+                </Canvas>
+                <Canvas Canvas.Left="848.75" Canvas.Top="230.600006103516">
+                    <Canvas>
+                        <Canvas.Clip>
+                            <RectangleGeometry Rect="-7.3,-2,158.6,35.7"/>
+                        </Canvas.Clip>
+                        <TextBlock Text="750V" FontSize="24" Foreground="#FFFF3300" Canvas.Left="-10.2" Canvas.Top="3.8"/>
+                        <TextBlock Text="送电画面" FontSize="24" Foreground="#FFFF3300" Canvas.Left="48.5166666666667" Canvas.Top="3.8"/>
+                    </Canvas>
+                </Canvas>
+                <breaker:EventBreaker Canvas.Left="118" Canvas.Top="322"
+                                  StationId="S01" BreakerId="S01.65"
+                                  Style="{StaticResource Isolation750Blue}">
+
+                </breaker:EventBreaker>
+                <breaker:EventBreaker Canvas.Left="118" Canvas.Top="370"
+                                  StationId="S01" BreakerId="S01.61"
+                                  Style="{StaticResource Isolation750Yellow}">
+                </breaker:EventBreaker>
+                <breaker:EventBreaker Canvas.Left="113" Canvas.Top="424"
+                                  StationId="S01" BreakerId="S01.60"
+                                  Style="{StaticResource Breaker750Yellow}">
+                </breaker:EventBreaker>
+                <breaker:EventBreaker Canvas.Left="118" Canvas.Top="465"
+                                  StationId="S01" BreakerId="S01.75"
+                                  Style="{StaticResource Isolation750Blue}">
+                </breaker:EventBreaker>
+                <breaker:EventBreaker Canvas.Left="118" Canvas.Top="512"
+                                  StationId="S01" BreakerId="S01.71"
+                                  Style="{StaticResource Isolation750Yellow}">
+                </breaker:EventBreaker>
+                <breaker:EventBreaker Canvas.Left="113" Canvas.Top="566"
+                                  StationId="S01" BreakerId="S01.70"
+                                  Style="{StaticResource Breaker750Yellow}">
+                </breaker:EventBreaker>
+                <breaker:EventBreaker Canvas.Left="113" Canvas.Top="613"
+                                  StationId="S01" BreakerId="S01.10"
+                                  Style="{StaticResource Breaker750Yellow}">
+                </breaker:EventBreaker>
+                <breaker:EventBreaker Canvas.Left="113" Canvas.Top="660"
+                                  StationId="S01" BreakerId="S01.20"
+                                  Style="{StaticResource Breaker750Yellow}">
+                </breaker:EventBreaker>
+                <breaker:EventBreaker Canvas.Left="113" Canvas.Top="707"
+                                  StationId="S01" BreakerId="S01.30"
+                                  Style="{StaticResource Breaker750Yellow}">
+                </breaker:EventBreaker>
+                <breaker:EventBreaker Canvas.Left="113" Canvas.Top="754"
+                                  StationId="S01" BreakerId="S01.40"
+                                  Style="{StaticResource Breaker750Yellow}">
+                </breaker:EventBreaker>
+                <breaker:EventBreaker Canvas.Left="113" Canvas.Top="849"
+                                  StationId="S01" BreakerId="S01.90"
+                                  Style="{StaticResource Breaker750Yellow}">
+                </breaker:EventBreaker>
+                <breaker:EventBreaker Canvas.Left="127" Canvas.Top="895"
+                                  Width="23" Height="32"
+                                  StationId="S01" BreakerId="S01.80"
+                                  Style="{StaticResource Breaker750Yellow}">
+                </breaker:EventBreaker>
+
+                <breaker:EventBreaker Canvas.Left="225" Canvas.Top="322"
+                                  StationId="S03" BreakerId="S03.65"
+                                  BreakerType="Isolation"
+                                  Style="{StaticResource Isolation750Blue}">
+
+                </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="225" Canvas.Top="370"
+                  StationId="S03" BreakerId="S03.61"
+                  Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="220" Canvas.Top="424"
+                  StationId="S03" BreakerId="S03.60"
+                  Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="225" Canvas.Top="465"
+                  StationId="S03" BreakerId="S03.75"
+                  Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="225" Canvas.Top="512"
+                  StationId="S03" BreakerId="S03.71"
+                  Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="220" Canvas.Top="566"
+                  StationId="S03" BreakerId="S03.70"
+                  Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="220" Canvas.Top="613"
+                  StationId="S03" BreakerId="S03.10"
+                  Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="220" Canvas.Top="660"
+                  StationId="S03" BreakerId="S03.20"
+                  Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="220" Canvas.Top="707"
+                  StationId="S03" BreakerId="S03.30"
+                  Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="220" Canvas.Top="754"
+                  StationId="S03" BreakerId="S03.40"
+                  Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="220" Canvas.Top="849"
+                  StationId="S03" BreakerId="S03.90"
+                  Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="234" Canvas.Top="895"
+                  Width="23" Height="32"
+                  StationId="S03" BreakerId="S03.80"
+                  Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+
+            <breaker:EventBreaker Canvas.Left="330" Canvas.Top="322"
+                      StationId="S05" BreakerId="S05.65"
+                      BreakerType="Isolation"
+                      Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="330" Canvas.Top="370"
+      StationId="S05" BreakerId="S05.61"
+      Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="325" Canvas.Top="424"
+      StationId="S05" BreakerId="S05.60"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="330" Canvas.Top="465"
+      StationId="S05" BreakerId="S05.75"
+      Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="330" Canvas.Top="512"
+      StationId="S05" BreakerId="S05.71"
+      Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="325" Canvas.Top="566"
+      StationId="S05" BreakerId="S05.70"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="325" Canvas.Top="613"
+      StationId="S05" BreakerId="S05.10"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="325" Canvas.Top="660"
+      StationId="S05" BreakerId="S05.20"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="325" Canvas.Top="707"
+      StationId="S05" BreakerId="S05.30"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="325" Canvas.Top="754"
+      StationId="S05" BreakerId="S05.40"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="325" Canvas.Top="802"
+      StationId="S05" BreakerId="S05.50"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="325" Canvas.Top="849"
+      StationId="S05" BreakerId="S05.90"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="339" Canvas.Top="895"
+      Width="23" Height="32"
+      StationId="S05" BreakerId="S05.80"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+
+            <breaker:EventBreaker Canvas.Left="435" Canvas.Top="322"
+                      StationId="S06" BreakerId="S06.65"
+                      BreakerType="Isolation"
+                      Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="435" Canvas.Top="370"
+      StationId="S06" BreakerId="S06.61"
+      Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="430" Canvas.Top="424"
+      StationId="S06" BreakerId="S06.60"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="435" Canvas.Top="465"
+      StationId="S06" BreakerId="S06.75"
+      Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="435" Canvas.Top="512"
+      StationId="S06" BreakerId="S06.71"
+      Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="430" Canvas.Top="566"
+      StationId="S06" BreakerId="S06.70"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="430" Canvas.Top="613"
+      StationId="S06" BreakerId="S06.10"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="430" Canvas.Top="660"
+      StationId="S06" BreakerId="S06.20"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="430" Canvas.Top="707"
+      StationId="S06" BreakerId="S06.30"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="430" Canvas.Top="754"
+      StationId="S06" BreakerId="S06.40"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="430" Canvas.Top="849"
+      StationId="S06" BreakerId="S06.90"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+
+            <breaker:EventBreaker Canvas.Left="540" Canvas.Top="322"
+                     StationId="S08" BreakerId="S08.65"
+                     BreakerType="Isolation"
+                     Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="540" Canvas.Top="370"
+     StationId="S08" BreakerId="S08.61"
+     Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="535" Canvas.Top="424"
+     StationId="S08" BreakerId="S08.60"
+     Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="540" Canvas.Top="465"
+     StationId="S08" BreakerId="S08.75"
+     Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="540" Canvas.Top="512"
+     StationId="S08" BreakerId="S08.71"
+     Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="535" Canvas.Top="566"
+     StationId="S08" BreakerId="S08.70"
+     Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="535" Canvas.Top="613"
+     StationId="S08" BreakerId="S08.10"
+     Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="535" Canvas.Top="660"
+     StationId="S08" BreakerId="S08.20"
+     Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="535" Canvas.Top="707"
+     StationId="S08" BreakerId="S08.30"
+     Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="535" Canvas.Top="754"
+     StationId="S08" BreakerId="S08.40"
+     Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="535" Canvas.Top="849"
+     StationId="S08" BreakerId="S08.90"
+     Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="547" Canvas.Top="895"
+      Width="23" Height="32"
+      StationId="S08" BreakerId="S08.80"
+      Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+
+            <breaker:EventBreaker Canvas.Left="645" Canvas.Top="322"
+                StationId="S10" BreakerId="S10.65"
+                BreakerType="Isolation"
+                Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="645" Canvas.Top="370"
+StationId="S10" BreakerId="S10.61"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="640" Canvas.Top="424"
+StationId="S10" BreakerId="S10.60"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="645" Canvas.Top="465"
+StationId="S10" BreakerId="S10.75"
+Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="645" Canvas.Top="512"
+StationId="S10" BreakerId="S10.71"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="640" Canvas.Top="566"
+StationId="S10" BreakerId="S10.70"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="640" Canvas.Top="613"
+StationId="S10" BreakerId="S10.10"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="640" Canvas.Top="660"
+StationId="S10" BreakerId="S10.20"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="640" Canvas.Top="707"
+StationId="S10" BreakerId="S10.30"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="640" Canvas.Top="754"
+StationId="S10" BreakerId="S10.40"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="640" Canvas.Top="849"
+StationId="S10" BreakerId="S10.90"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="653" Canvas.Top="895"
+ Width="23" Height="32"
+ StationId="S10" BreakerId="S10.80"
+ Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+
+
+            <breaker:EventBreaker Canvas.Left="750" Canvas.Top="322"
+                StationId="S13" BreakerId="S13.65"
+                BreakerType="Isolation"
+                Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="750" Canvas.Top="370"
+StationId="S13" BreakerId="S13.61"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="745" Canvas.Top="424"
+StationId="S13" BreakerId="S13.60"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="750" Canvas.Top="465"
+StationId="S13" BreakerId="S13.75"
+Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="750" Canvas.Top="512"
+StationId="S13" BreakerId="S13.71"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="745" Canvas.Top="566"
+StationId="S13" BreakerId="S13.70"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="745" Canvas.Top="613"
+StationId="S13" BreakerId="S13.10"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="745" Canvas.Top="660"
+StationId="S13" BreakerId="S13.20"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="745" Canvas.Top="707"
+StationId="S13" BreakerId="S13.30"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="745" Canvas.Top="754"
+StationId="S13" BreakerId="S13.40"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="745" Canvas.Top="849"
+StationId="S13" BreakerId="S13.90"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="758" Canvas.Top="895"
+ Width="23" Height="32"
+ StationId="S13" BreakerId="S13.80"
+ Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+
+            <breaker:EventBreaker Canvas.Left="855" Canvas.Top="322"
+                StationId="S15" BreakerId="S15.65"
+                BreakerType="Isolation"
+                Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="855" Canvas.Top="370"
+StationId="S15" BreakerId="S15.61"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="850" Canvas.Top="424"
+StationId="S15" BreakerId="S15.60"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="855" Canvas.Top="465"
+StationId="S15" BreakerId="S15.75"
+Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="855" Canvas.Top="512"
+StationId="S15" BreakerId="S15.71"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="850" Canvas.Top="566"
+StationId="S15" BreakerId="S15.70"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="850" Canvas.Top="613"
+StationId="S15" BreakerId="S15.10"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="850" Canvas.Top="660"
+StationId="S15" BreakerId="S15.20"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="850" Canvas.Top="707"
+StationId="S15" BreakerId="S15.30"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="850" Canvas.Top="754"
+StationId="S15" BreakerId="S15.40"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="850" Canvas.Top="849"
+StationId="S15" BreakerId="S15.90"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="863" Canvas.Top="895"
+ Width="23" Height="32"
+ StationId="S15" BreakerId="S15.80"
+ Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+
+            <breaker:EventBreaker Canvas.Left="960" Canvas.Top="322"
+                StationId="S17" BreakerId="S17.65"
+                BreakerType="Isolation"
+                Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="960" Canvas.Top="370"
+StationId="S17" BreakerId="S17.61"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="955" Canvas.Top="424"
+StationId="S17" BreakerId="S17.60"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="960" Canvas.Top="465"
+StationId="S17" BreakerId="S17.75"
+Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="960" Canvas.Top="512"
+StationId="S17" BreakerId="S17.71"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="955" Canvas.Top="566"
+StationId="S17" BreakerId="S17.70"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="955" Canvas.Top="613"
+StationId="S17" BreakerId="S17.10"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="955" Canvas.Top="660"
+StationId="S17" BreakerId="S17.20"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="955" Canvas.Top="707"
+StationId="S17" BreakerId="S17.30"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="955" Canvas.Top="754"
+StationId="S17" BreakerId="S17.40"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="955" Canvas.Top="849"
+StationId="S17" BreakerId="S17.90"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="969" Canvas.Top="895"
+ Width="23" Height="32"
+ StationId="S17" BreakerId="S17.80"
+ Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+
+            <breaker:EventBreaker Canvas.Left="1065" Canvas.Top="322"
+                StationId="S18" BreakerId="S18.65"
+                BreakerType="Isolation"
+                Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1065" Canvas.Top="370"
+StationId="S18" BreakerId="S18.61"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1060" Canvas.Top="424"
+StationId="S18" BreakerId="S18.60"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1065" Canvas.Top="465"
+StationId="S18" BreakerId="S18.75"
+Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1065" Canvas.Top="512"
+StationId="S18" BreakerId="S18.71"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1060" Canvas.Top="566"
+StationId="S18" BreakerId="S18.70"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1060" Canvas.Top="613"
+StationId="S18" BreakerId="S18.10"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1060" Canvas.Top="660"
+StationId="S18" BreakerId="S18.20"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1060" Canvas.Top="707"
+StationId="S18" BreakerId="S18.30"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1060" Canvas.Top="754"
+StationId="S18" BreakerId="S18.40"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1060" Canvas.Top="849"
+StationId="S18" BreakerId="S18.90"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1074" Canvas.Top="895"
+ Width="23" Height="32"
+ StationId="S18" BreakerId="S18.80"
+ Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+
+
+            <breaker:EventBreaker Canvas.Left="1170" Canvas.Top="322"
+                StationId="S19" BreakerId="S19.65"
+                BreakerType="Isolation"
+                Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1170" Canvas.Top="370"
+StationId="S19" BreakerId="S19.61"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1165" Canvas.Top="424"
+StationId="S19" BreakerId="S19.60"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1170" Canvas.Top="465"
+StationId="S19" BreakerId="S19.75"
+Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1170" Canvas.Top="512"
+StationId="S19" BreakerId="S19.71"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1165" Canvas.Top="566"
+StationId="S19" BreakerId="S19.70"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1165" Canvas.Top="613"
+StationId="S19" BreakerId="S19.10"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1165" Canvas.Top="660"
+StationId="S19" BreakerId="S19.20"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1165" Canvas.Top="707"
+StationId="S19" BreakerId="S19.30"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1165" Canvas.Top="754"
+StationId="S19" BreakerId="S19.40"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1165" Canvas.Top="849"
+StationId="S19" BreakerId="S19.90"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1179" Canvas.Top="895"
+ Width="23" Height="32"
+ StationId="S19" BreakerId="S19.80"
+ Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+
+            <breaker:EventBreaker Canvas.Left="1275" Canvas.Top="322"
+                StationId="S21" BreakerId="S21.65"
+                BreakerType="Isolation"
+                Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1275" Canvas.Top="370"
+StationId="S21" BreakerId="S21.61"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1270" Canvas.Top="424"
+StationId="S21" BreakerId="S21.60"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1275" Canvas.Top="465"
+StationId="S21" BreakerId="S21.75"
+Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1275" Canvas.Top="512"
+StationId="S21" BreakerId="S21.71"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1270" Canvas.Top="566"
+StationId="S21" BreakerId="S21.70"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1270" Canvas.Top="613"
+StationId="S21" BreakerId="S21.10"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1270" Canvas.Top="660"
+StationId="S21" BreakerId="S21.20"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1270" Canvas.Top="707"
+StationId="S21" BreakerId="S21.30"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1270" Canvas.Top="754"
+StationId="S21" BreakerId="S21.40"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1270" Canvas.Top="849"
+StationId="S21" BreakerId="S21.90"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+
+
+            <breaker:EventBreaker Canvas.Left="1380" Canvas.Top="322"
+                StationId="S22" BreakerId="S22.65"
+                BreakerType="Isolation"
+                Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1380" Canvas.Top="370"
+StationId="S22" BreakerId="S22.61"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1375" Canvas.Top="424"
+StationId="S22" BreakerId="S22.60"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1380" Canvas.Top="465"
+StationId="S22" BreakerId="S22.75"
+Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1380" Canvas.Top="512"
+StationId="S22" BreakerId="S22.71"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1375" Canvas.Top="566"
+StationId="S22" BreakerId="S22.70"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1375" Canvas.Top="613"
+StationId="S22" BreakerId="S22.10"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1375" Canvas.Top="660"
+StationId="S22" BreakerId="S22.20"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1375" Canvas.Top="707"
+StationId="S22" BreakerId="S22.30"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1375" Canvas.Top="754"
+StationId="S22" BreakerId="S22.40"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1375" Canvas.Top="849"
+StationId="S22" BreakerId="S22.90"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1389" Canvas.Top="895"
+ Width="23" Height="32"
+ StationId="S22" BreakerId="S22.80"
+ Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+
+            <breaker:EventBreaker Canvas.Left="1485" Canvas.Top="322"
+                StationId="S24" BreakerId="S24.65"
+                BreakerType="Isolation"
+                Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1485" Canvas.Top="370"
+StationId="S24" BreakerId="S24.61"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1480" Canvas.Top="424"
+StationId="S24" BreakerId="S24.60"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1485" Canvas.Top="465"
+StationId="S24" BreakerId="S24.75"
+Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1485" Canvas.Top="512"
+StationId="S24" BreakerId="S24.71"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1480" Canvas.Top="566"
+StationId="S24" BreakerId="S24.70"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1480" Canvas.Top="613"
+StationId="S24" BreakerId="S24.10"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1480" Canvas.Top="660"
+StationId="S24" BreakerId="S24.20"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1480" Canvas.Top="707"
+StationId="S24" BreakerId="S24.30"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1480" Canvas.Top="754"
+StationId="S24" BreakerId="S24.40"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1480" Canvas.Top="849"
+StationId="S24" BreakerId="S24.90"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1494" Canvas.Top="895"
+ Width="23" Height="32"
+ StationId="S24" BreakerId="S24.80"
+ Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+
+            <breaker:EventBreaker Canvas.Left="1590" Canvas.Top="322"
+                StationId="S25" BreakerId="S25.65"
+                BreakerType="Isolation"
+                Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1590" Canvas.Top="370"
+StationId="S25" BreakerId="S25.61"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1585" Canvas.Top="424"
+StationId="S25" BreakerId="S25.60"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1590" Canvas.Top="465"
+StationId="S25" BreakerId="S25.75"
+Style="{StaticResource Isolation750Blue}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1590" Canvas.Top="512"
+StationId="S25" BreakerId="S25.71"
+Style="{StaticResource Isolation750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1585" Canvas.Top="566"
+StationId="S25" BreakerId="S25.70"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1585" Canvas.Top="613"
+StationId="S25" BreakerId="S25.10"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1585" Canvas.Top="660"
+StationId="S25" BreakerId="S25.20"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1585" Canvas.Top="707"
+StationId="S25" BreakerId="S25.30"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1585" Canvas.Top="754"
+StationId="S25" BreakerId="S25.40"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1585" Canvas.Top="849"
+StationId="S25" BreakerId="S25.90"
+Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+            <breaker:EventBreaker Canvas.Left="1599" Canvas.Top="895"
+ Width="23" Height="32"
+ StationId="S25" BreakerId="S25.80"
+ Style="{StaticResource Breaker750Yellow}">
+            </breaker:EventBreaker>
+
+            <Button Canvas.Left="1680" Canvas.Top="235" 
+                        Width="124"
+                        Height="42"
+                        Cursor="Hand"
+                        Background="#dc0908"
+                        FontSize="20"
+                        Command="{Binding SelectLineCommand}"
+                    Content="选线送电">
+                </Button>
+            <Button Canvas.Left="1680" Canvas.Top="290" 
+                        Width="124"
+                        Height="42"
+                        Cursor="Hand"
+                        Background="#dc0908"
+                        FontSize="20"
+                        Command="{Binding StopCommand}"
+                    Content="中止">
+            </Button>
+        </Canvas>
+    </Canvas>
+</UserControl>

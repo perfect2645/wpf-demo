@@ -1,0 +1,862 @@
+﻿<UserControl x:Class="wpf.ui.views.diagrams.envControl.sensor.Sensor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:wpf.ui.views.diagrams.electric"
+             xmlns:vm="clr-namespace:wpf.ui.viewmodels.diagrams.electric"
+             xmlns:ctrl="clr-namespace:wpf.ui.views.diagrams.common">
+    <UserControl.Resources>
+
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ctrl:Caption Grid.Row="0"
+              FontSize="26"
+              Foreground="{Binding CaptionForeground}"
+              StationName="{Binding RouteService.StationName}"
+              CaptionText="--传感器">
+        </ctrl:Caption>
+        <Grid Grid.Row="1" HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="180" ></ColumnDefinition>
+                <ColumnDefinition Width="10" ></ColumnDefinition>
+                <ColumnDefinition Width="100" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="180" ></ColumnDefinition>
+                <ColumnDefinition Width="30" ></ColumnDefinition>
+                <ColumnDefinition Width="100" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="180" ></ColumnDefinition>
+                <ColumnDefinition Width="10" ></ColumnDefinition>
+                <ColumnDefinition Width="100" ></ColumnDefinition>
+                <ColumnDefinition Width="80" ></ColumnDefinition>
+                <ColumnDefinition Width="180" ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="温度" Foreground="Black" FontSize="20"></TextBlock>
+
+            <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" FontSize="20" Content="南端温度传感器" Foreground="White" Background="Blue" HorizontalContentAlignment="Center"></Label>
+
+            <Border Grid.Row="2" Grid.Column="0" Grid.RowSpan="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="风道" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="7" Grid.Column="0" Grid.RowSpan="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="站厅" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="0" Grid.RowSpan="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="站台" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="11" Grid.Column="0" Grid.RowSpan="4" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="空调房" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="15" Grid.Column="0" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="上行区间" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="16" Grid.Column="0" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="下行区间" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="17" Grid.Column="0" Grid.ColumnSpan="7" BorderBrush="Black" BorderThickness="0,2,0,0" Margin="0,10,0,0">
+            </Border>
+
+            <TextBlock Grid.Row="18" Grid.Column="0" Grid.ColumnSpan="3" Text="焓值，颗粒传感器" Foreground="Black" FontSize="20"></TextBlock>
+
+            <Label Grid.Row="19" Grid.Column="0" Grid.ColumnSpan="3" FontSize="20" Content="南端" Foreground="White" Background="Blue" HorizontalContentAlignment="Center"></Label>
+
+            <Border Grid.Row="20" Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="南风道焓值传感器" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="1" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Ta1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+            
+            <Border Grid.Row="3" Grid.Column="1" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Tb1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="1" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Tc1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="5" Grid.Column="1" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Te1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="6" Grid.Column="1" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Tf1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="7" Grid.Column="1" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="T1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="8" Grid.Column="1" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="T2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="1" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="T5" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="10" Grid.Column="1" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="T6" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="11" Grid.Column="1" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Tg1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="12" Grid.Column="1" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Th1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="13" Grid.Column="1" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Tg3" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="14" Grid.Column="1" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Th3" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="15" Grid.Column="1" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Tq2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="16" Grid.Column="1" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Tq1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="24.4" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="3" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="0.1" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="-20.0" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="5" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="-20.0" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="6" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="0.6" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="7" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="25.3" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="8" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="24.6" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="24.4" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="10" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="24.8" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="11" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="15.2" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="12" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="28.1" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="13" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="17.8" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="14" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="27.4" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="15" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="29.1" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="16" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="27.2" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="20" Grid.Column="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="89.2" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="KJ/KG" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Label Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="3" FontSize="20" Content="北端温度传感器" Foreground="White" Background="Blue" HorizontalContentAlignment="Center"></Label>
+
+            <Border Grid.Row="2" Grid.Column="4" Grid.RowSpan="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="风道" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="7" Grid.Column="4" Grid.RowSpan="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="站厅" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="4" Grid.RowSpan="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="站台" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="11" Grid.Column="4" Grid.RowSpan="4" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="空调房" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="15" Grid.Column="4" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="上行区间" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="16" Grid.Column="4" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="下行区间" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Label Grid.Row="19" Grid.Column="4" Grid.ColumnSpan="3" FontSize="20" Content="北端" Foreground="White" Background="Blue" HorizontalContentAlignment="Center"></Label>
+
+            <Border Grid.Row="20" Grid.Column="4" Grid.ColumnSpan="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="北风道焓值传感器" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Ta2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="3" Grid.Column="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Tb2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Tc2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="5" Grid.Column="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Te2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="6" Grid.Column="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Tf2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="7" Grid.Column="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="T3" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="8" Grid.Column="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="T4" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="T7" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="10" Grid.Column="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="T8" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="11" Grid.Column="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Tg2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="12" Grid.Column="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Th2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="13" Grid.Column="5" BorderBrush="LimeGreen" BorderThickness="1">
+            </Border>
+
+            <Border Grid.Row="14" Grid.Column="5" BorderBrush="LimeGreen" BorderThickness="1">
+            </Border>
+
+            <Border Grid.Row="15" Grid.Column="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Tq4" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="16" Grid.Column="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Tq3" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="25.1" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="3" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="24.7" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="43.1" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="5" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="-1.6" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="6" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="11.1" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="7" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="-10.0" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="8" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="22.4" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="24.7" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="10" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="13.0" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="11" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="18.5" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="12" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="31.9" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="13" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+            </Border>
+
+            <Border Grid.Row="14" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+            </Border>
+
+            <Border Grid.Row="15" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="-20.0" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="16" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="-30.9" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="℃" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="20" Grid.Column="6" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="71.0" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="KJ/KG" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="0" Grid.Column="7" Grid.RowSpan="21" BorderBrush="Black" BorderThickness="2,0,0,0" Margin="10,0,10,0">
+            </Border>
+
+            <TextBlock Grid.Row="0" Grid.Column="8" Text="湿度" Foreground="Black" FontSize="20"></TextBlock>
+
+            <Label Grid.Row="1" Grid.Column="8" Grid.ColumnSpan="3" FontSize="20" Content="南端湿度传感器" Foreground="White" Background="Blue" HorizontalContentAlignment="Center"></Label>
+
+            <Border Grid.Row="2" Grid.Column="8" Grid.RowSpan="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="风道" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="7" Grid.Column="8" Grid.RowSpan="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="站厅" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="8" Grid.RowSpan="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="站台" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="11" Grid.Column="8" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="上行区间" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="12" Grid.Column="8" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="下行区间" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="13" Grid.Column="8" Grid.ColumnSpan="7" BorderBrush="Black" BorderThickness="0,2,0,0" Margin="0,10,0,0">
+            </Border>
+
+            <TextBlock Grid.Row="14" Grid.Column="8" Grid.ColumnSpan="3" Text="CO₂浓度传感器" Foreground="Black" FontSize="20"></TextBlock>
+
+            <Label Grid.Row="15" Grid.Column="8" Grid.ColumnSpan="3" FontSize="20" Content="南端CO₂浓度传感器" Foreground="White" Background="Blue" HorizontalContentAlignment="Center"></Label>
+
+            <Border Grid.Row="16" Grid.Column="8" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="风道" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="17" Grid.Column="8" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="上行区间" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="18" Grid.Column="8" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="下行区间" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="9" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Ha1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="3" Grid.Column="9" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Hb1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="9" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Hc1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="5" Grid.Column="9" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="He1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="6" Grid.Column="9" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Hf1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="7" Grid.Column="9" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="H1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="8" Grid.Column="9" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="H2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="9" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="H5" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="10" Grid.Column="9" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="H6" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="11" Grid.Column="9" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Hq2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="12" Grid.Column="9" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Hq1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="16" Grid.Column="9" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Cc1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="17" Grid.Column="9" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Cq2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="18" Grid.Column="9" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Cq1" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="10" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="48.2" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="3" Grid.Column="10" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="0.0" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="10" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="0.0" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="5" Grid.Column="10" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="-13.1" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="6" Grid.Column="10" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="2.0" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="7" Grid.Column="10" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="69.6" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="8" Grid.Column="10" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="70.5" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="10" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="74.2" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="10" Grid.Column="10" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="74.4" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="11" Grid.Column="10" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="74.8" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="12" Grid.Column="10" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="75,6" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="16" Grid.Column="10" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="543.9" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="ppn" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="17" Grid.Column="10" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="818.8" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="ppn" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="18" Grid.Column="10" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="833.3" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="ppn" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Label Grid.Row="1" Grid.Column="12" Grid.ColumnSpan="3" FontSize="20" Content="北端湿度传感器" Foreground="White" Background="Blue" HorizontalContentAlignment="Center"></Label>
+
+            <Border Grid.Row="2" Grid.Column="12" Grid.RowSpan="5" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="风道" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="7" Grid.Column="12" Grid.RowSpan="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="站厅" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="12" Grid.RowSpan="2" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="站台" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="11" Grid.Column="12" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="上行区间" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="12" Grid.Column="12" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="下行区间" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Label Grid.Row="15" Grid.Column="12" Grid.ColumnSpan="3" FontSize="20" Content="北端CO₂浓度传感器" Foreground="White" Background="Blue" HorizontalContentAlignment="Center"></Label>
+
+            <Border Grid.Row="16" Grid.Column="12" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="风道" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="17" Grid.Column="12" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="上行区间" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="18" Grid.Column="12" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="下行区间" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="13" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Ha2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="3" Grid.Column="13" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Hb2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="13" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Hc2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="5" Grid.Column="13" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="He2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="6" Grid.Column="13" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Hf2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="7" Grid.Column="13" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="H3" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="8" Grid.Column="13" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="H4" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="13" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="H7" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="10" Grid.Column="13" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="H8" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="11" Grid.Column="13" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Hq4" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="12" Grid.Column="13" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Hq3" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="16" Grid.Column="13" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Cc2" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="17" Grid.Column="13" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Cq4" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="18" Grid.Column="13" BorderBrush="LimeGreen" BorderThickness="1">
+                <TextBlock Text="Cq3" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="14" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="90.9" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="3" Grid.Column="14" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="69.6" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="14" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="118.5" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="5" Grid.Column="14" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="0.0" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="6" Grid.Column="14" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="36.8" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="7" Grid.Column="14" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="0.0" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="8" Grid.Column="14" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="51.7" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="14" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="49.8" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="10" Grid.Column="14" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="53.3" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="11" Grid.Column="14" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="118.5" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="12" Grid.Column="14" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="5.5" FontSize="20" Foreground="Black" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="%RH" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="16" Grid.Column="14" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="0.0" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="ppn" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="17" Grid.Column="14" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="0.0" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="ppn" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="18" Grid.Column="14" BorderBrush="LimeGreen" BorderThickness="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="0.0" FontSize="20" Foreground="#FF6EC7" Background="White" HorizontalContentAlignment="Right" Height="30" Width="80" Margin="10,0,0,0"></Label>
+                    <TextBlock Text="ppn" FontSize="20" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

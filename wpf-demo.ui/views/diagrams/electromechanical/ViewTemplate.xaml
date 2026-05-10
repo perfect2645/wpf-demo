@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:wpf.ui.viewmodels.diagrams.electromechanical"
+                    xmlns:view="clr-namespace:wpf.ui.views.diagrams.electromechanical">
+    <DataTemplate DataType="{x:Type vm:EscalatorVm}">
+        <view:Escalator />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:LightingVm}">
+        <view:Lighting />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:DrainageVm}">
+        <view:Drainage />
+    </DataTemplate>
+</ResourceDictionary>

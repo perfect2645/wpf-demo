@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="wpf.ui.views.panels.TestPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:wpf.ui.views.panels"
+             xmlns:buttons="clr-namespace:wpf.ui.controls.buttons"
+             xmlns:Behaviors="http://schemas.microsoft.com/xaml/behaviors"
+             xmlns:viewmodel="clr-namespace:wpf.ui.viewmodels.panels">
+    <UserControl.DataContext>
+        <viewmodel:TestPanelViewModel />
+    </UserControl.DataContext>
+    <Grid>
+        <buttons:BreakerButton DataContext="{Binding BreakerButtonVm}"
+            BreakerState="{Binding BreakerState}"
+            BreakerType="{Binding BreakerType}"
+            >
+            <Behaviors:Interaction.Triggers>
+                <Behaviors:EventTrigger EventName="MouseDoubleClick">
+                    <Behaviors:InvokeCommandAction Command="{Binding DoubleClickCommand}" />
+                </Behaviors:EventTrigger>
+            </Behaviors:Interaction.Triggers>
+        </buttons:BreakerButton>
+    </Grid>
+</UserControl>
